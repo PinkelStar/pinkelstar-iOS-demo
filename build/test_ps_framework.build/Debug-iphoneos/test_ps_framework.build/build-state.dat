@@ -1,0 +1,1359 @@
+Ttest_ps_framework
+v7
+r0
+t297351300.561938
+cCheck dependencies
+cCpResource build/Debug-iphoneos/test_ps_framework.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/Info.plist" test_ps_framework-Info.plist
+cCompileXIB "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/MainWindow.xib"
+cCpResource build/Debug-iphoneos/test_ps_framework.app/FBConnect.bundle Include/PinkelStar/FBConnect.bundle
+cCpResource build/Debug-iphoneos/test_ps_framework.app/PinkelStar.bundle Include/PinkelStar/PinkelStar.bundle
+cProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-hjoogekzekuomrbehfrobyjafjnd/test_ps_framework_Prefix.pch.gch test_ps_framework_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gnzvjdjhlxbzlzawnhuctgesupxg/test_ps_framework_Prefix.pch.pth test_ps_framework_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/main.o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkAppDelegate.o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkViewController.o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cAnalyze "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m"
+cAnalyze "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m"
+cAnalyze "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m"
+cLd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework" normal armv6
+cGenerateDSYMFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app.dSYM" "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework"
+cProcessProductPackaging "/Users/vanelsas/Library/MobileDevice/Provisioning Profiles/B3A56A35-D011-4571-A89D-E261206839CF.mobileprovision" "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/embedded.mobileprovision"
+cTouch "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent"
+cCodeSign "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk
+c000000004B47C9600000000000000110
+t1262995808
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+c000000004A767D3000000000000000DD
+t1249279280
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+c000000004A767D3000000000000001E5
+t1249279280
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A82198D00000000005F4900
+t1250040205
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A76566F0000000000501370
+t1249269359
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7656460000000000001355
+t1249269318
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A7654FE00000000000D7460
+t1249268990
+s881760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E9C0000000000000788
+t1249668764
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6FEF0000000001B3F450
+t1249669103
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/usr/lib/libxml2.dylib
+c000000004A76533D00000000002FB320
+t1249268541
+s3126048
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004C059C0E0000000000000110
+t1275436046
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+c000000004B9F103D00000000000001E5
+t1268715581
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AC100000000003B4B70
+t1268792001
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F26D2000000000036A650
+t1268721362
+s3581520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F26B90000000000001355
+t1268721337
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004B9F25FD000000000008B5F0
+t1268721149
+s570864
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B9F318D000000000000098F
+t1268724109
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B9F32090000000002703230
+t1268724233
+s40907312
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C05C1B10000000000000110
+t1275445681
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004BFE069000000000000AC990
+t1274939024
+s706960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Users/vanelsas/Library/MobileDevice/Provisioning Profiles/8B0F4026-AA88-42CB-BFFC-5C72A625E6BB.mobileprovision
+c000000004C0D76180000000000001C09
+t1275950616
+s7177
+
+N/Users/vanelsas/Library/MobileDevice/Provisioning Profiles/B3A56A35-D011-4571-A89D-E261206839CF.mobileprovision
+c000000004BCEA61C0000000000001C0A
+t1271834140
+s7178
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.h
+c000000004C0636AB0000000000000222
+t1275475627
+s546
+i<UIKit/UIKit.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m
+c000000004C0636AB00000000000002E2
+t1275475627
+s738
+i"test_ps_frameworkAppDelegate.h"
+i"test_ps_frameworkViewController.h"
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.h
+c000000004C31EE310000000000000238
+t1278340657
+s568
+i<UIKit/UIKit.h>
+i<PinkelStar/PSShareButtonDelegate.h>
+i<PinkelStar/PSMainViewControllerDelegate.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m
+c000000004C31EE0E0000000000001BCD
+t1278340622
+s7117
+i"test_ps_frameworkViewController.h"
+i<PinkelStar/PSShareButton.h>
+i<PinkelStar/PSMainViewController.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Include/PinkelStar/FBConnect.bundle
+c000000004C08FAEE0000000000000066
+t1275656942
+s102
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Include/PinkelStar/PinkelStar.bundle
+c000000004C08FD2F0000000000000088
+t1275657519
+s136
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/MainWindow.xib
+c000000004C0636AB0000000000001F91
+t1275475627
+s8081
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSApplicationDeveloperDelegate.h
+c000000004C08FAFF000000000000037E
+t1275656959
+s894
+i<Foundation/Foundation.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSDesign2ViewController.h
+c000000004C08FAFF0000000000000158
+t1275656959
+s344
+i<UIKit/UIKit.h>
+i"PSNavigationController.h"
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSMainViewController.h
+c000000004C322FEF00000000000012B8
+t1278357487
+s4792
+i<UIKit/UIKit.h>
+i"PSMainViewControllerDelegate.h"
+i"PSPinkelStarServerDelegate.h"
+i"PSPermissionViewDelegate.h"
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSMainViewControllerDelegate.h
+c000000004C322FEF000000000000019B
+t1278357487
+s411
+i<Foundation/Foundation.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSNavigationController.h
+c000000004C08FAFF0000000000000C32
+t1275656959
+s3122
+i<UIKit/UIKit.h>
+i"PSSocialNetworkViewControllerDelegate.h"
+i"PSApplicationDeveloperDelegate.h"
+i"PSNavigationControllerDelegate.h"
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSNavigationControllerDelegate.h
+c000000004C08FAFF00000000000001AC
+t1275656959
+s428
+i<Foundation/Foundation.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSPermissionViewDelegate.h
+c000000004C322FEF000000000000028F
+t1278357487
+s655
+i<Foundation/Foundation.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSPinkelStarServerDelegate.h
+c000000004C322FEF0000000000000572
+t1278357487
+s1394
+i<Foundation/Foundation.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSShareButton.h
+c000000004C322FEF0000000000000638
+t1278357487
+s1592
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PSShareButtonDelegate.h"
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSShareButtonDelegate.h
+c000000004C322FEF00000000000001E0
+t1278357487
+s480
+i<Foundation/Foundation.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSSocialNetworkViewControllerDelegate.h
+c000000004C08FAFF00000000000002D5
+t1275656959
+s725
+i<Foundation/Foundation.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/Headers/PSViewcontroller.h
+c000000004C08FAFF000000000000016C
+t1275656959
+s364
+i<UIKit/UIKit.h>
+i"PSNavigationController.h"
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/PinkelStar.framework/PinkelStar
+c000000004C322FEF00000000001BB44C
+t1278357487
+s1815628
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/ApplicationDeveloper.plist
+c000000004C32368F0000000000000163
+t1278359183
+s355
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/Localizable.strings
+c000000004C3234120000000000000A66
+t1278358546
+s2662
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSMainViewController.xib
+c000000004C2D96E5000000000000E51B
+t1278056165
+s58651
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/likebuttons/like-54x31-pink.png
+c000000004C3234120000000000001445
+t1278358546
+s5189
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/likebuttons/like-60x31-black.png
+c000000004C32341200000000000013CD
+t1278358546
+s5069
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/likebuttons/like-67x31-black.png
+c000000004C32341200000000000013FC
+t1278358546
+s5116
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/likebuttons/like-67x31-grey.png
+c000000004C3234120000000000001474
+t1278358546
+s5236
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/app_icon_shadow.png
+c000000004C3234120000000000000BB5
+t1278358546
+s2997
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/bg-networks.png
+c000000004C3234120000000000000E34
+t1278358546
+s3636
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/bg-publish.png
+c000000004C3234120000000000000E0E
+t1278358546
+s3598
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/bottom.png
+c000000004C3234120000000000000E6F
+t1278358546
+s3695
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/button-shine.png
+c000000004C3234120000000000000DFC
+t1278358546
+s3580
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/close.png
+c000000004C323412000000000000033D
+t1278358546
+s829
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/done_deselected.png
+c000000004C3234120000000000000CF5
+t1278358546
+s3317
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/done_selected.png
+c000000004C3234120000000000000CEA
+t1278358546
+s3306
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/icon-facebook-small.png
+c000000004C3234120000000000000689
+t1278358546
+s1673
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/icon-facebook.png
+c000000004C323412000000000000087E
+t1278358546
+s2174
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/icon-leeg-small.png
+c000000004C323412000000000000033A
+t1278358546
+s826
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/icon-leeg.png
+c000000004C3234120000000000000425
+t1278358546
+s1061
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/icon-twitter-small.png
+c000000004C32341200000000000006C3
+t1278358546
+s1731
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/icon-twitter.png
+c000000004C323412000000000000090C
+t1278358546
+s2316
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/pinkelstar.png
+c000000004C3234120000000000001A46
+t1278358546
+s6726
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/pinkelstar_icon_20_20.png
+c000000004C3234120000000000000F78
+t1278358546
+s3960
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/placeholder_app_icon.png
+c000000004C32341200000000000015C0
+t1278358546
+s5568
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/placeholder_button_icon.png
+c000000004C3234120000000000000E97
+t1278358546
+s3735
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/pref_placeholder_icon_small.png
+c000000004C323412000000000000033A
+t1278358546
+s826
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/pref_table_bottomrow_bg.png
+c000000004C3234120000000000000C3B
+t1278358546
+s3131
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/pref_table_row_bg.png
+c000000004C3234120000000000000B71
+t1278358546
+s2929
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/pref_table_toprow_bg.png
+c000000004C3234120000000000000C61
+t1278358546
+s3169
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/ps_close.png
+c000000004C3234120000000000000B1F
+t1278358546
+s2847
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/publish_button_color.png
+c000000004C3234120000000000000AF5
+t1278358546
+s2805
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/settings_deselected.png
+c000000004C3234120000000000000DE1
+t1278358546
+s3553
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/settings_selected.png
+c000000004C3234120000000000000DBC
+t1278358546
+s3516
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/shadow-up.png
+c000000004C3234120000000000000E04
+t1278358546
+s3588
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/shine.png
+c000000004C3234120000000000000E08
+t1278358546
+s3592
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/shine_publish_button.png
+c000000004C3234120000000000000D04
+t1278358546
+s3332
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/sn_button_bg_highlighted.png
+c000000004C3234120000000000000C2E
+t1278358546
+s3118
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/sn_button_bg_normal.png
+c000000004C3234120000000000000C2E
+t1278358546
+s3118
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/sn_button_bg_selected.png
+c000000004C3234120000000000000D5D
+t1278358546
+s3421
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/maindesign/topbar.png
+c000000004C3234120000000000000E2F
+t1278358546
+s3631
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-115x49-black.png
+c000000004C32341200000000000022C5
+t1278358546
+s8901
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-115x49-grey.png
+c000000004C32341200000000000021D1
+t1278358546
+s8657
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-115x49-pink-shine.png
+c000000004C3234120000000000002C91
+t1278358546
+s11409
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-115x49-pink.png
+c000000004C3234120000000000002C9F
+t1278358546
+s11423
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-163x31-black.png
+c000000004C3234120000000000001CE7
+t1278358546
+s7399
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-163x31-grey.png
+c000000004C3234120000000000001BBF
+t1278358546
+s7103
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-163x31-pink-shine.png
+c000000004C32341200000000000021A6
+t1278358546
+s8614
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-163x31-pink.png
+c000000004C323412000000000000216D
+t1278358546
+s8557
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-87x31-black.png
+c000000004C323412000000000000189D
+t1278358546
+s6301
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-87x31-grey.png
+c000000004C3234120000000000001863
+t1278358546
+s6243
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-87x31-pink-shine.png
+c000000004C3234120000000000001AFC
+t1278358546
+s6908
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSimages/sharebuttons/share-87x31-pink.png
+c000000004C3234120000000000001ADF
+t1278358546
+s6879
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app
+t1278358547
+s2210
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app.dSYM
+t1278357829
+s102
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/ApplicationDeveloper.plist
+t1278357781
+s100
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/FBConnect.bundle
+t1275658499
+s102
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/Info.plist
+t1278358547
+s729
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/Localizable.strings
+t1278357781
+s501
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/MainWindow.nib
+t1278358547
+s964
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/PSMainViewController.nib
+t1278357785
+s10270
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/PinkelStar.bundle
+t1275658499
+s136
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/PkgInfo
+t1278358547
+s8
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/ResourceRules.plist
+t1278358547
+s485
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/app_icon_shadow.png
+t1278357782
+s2994
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/bg-networks.png
+t1278357782
+s3760
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/bg-publish.png
+t1278357782
+s3749
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/bottom.png
+t1278357782
+s3692
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/button-shine.png
+t1278357782
+s3662
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/close.png
+t1278357782
+s851
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/custom_image.png
+t2
+s0
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/custom_image_highlighted.png
+t2
+s0
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/done_deselected.png
+t1278357782
+s3304
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/done_selected.png
+t1278357782
+s3306
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/embedded.mobileprovision
+t1278358547
+s7178
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-facebook-small.png
+t1278357782
+s1914
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-facebook.png
+t1278357782
+s2419
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-leeg-small.png
+t1278357782
+s911
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-leeg.png
+t1278357782
+s1318
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-twitter-small.png
+t1278357782
+s1904
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-twitter.png
+t1278357782
+s2499
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/like-54x31-pink.png
+t1278357782
+s5567
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/like-60x31-black.png
+t1278357782
+s5469
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/like-67x31-black.png
+t1278357782
+s5508
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/like-67x31-grey.png
+t1278357782
+s5708
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pinkelstar.png
+t1278357782
+s6608
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pinkelstar_icon_20_20.png
+t1278357782
+s4019
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/placeholder_app_icon.png
+t1278357782
+s6216
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/placeholder_button_icon.png
+t1278357782
+s3985
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pref_placeholder_icon_small.png
+t1278357782
+s911
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pref_table_bottomrow_bg.png
+t1278357782
+s3231
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pref_table_row_bg.png
+t1278357782
+s2923
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pref_table_toprow_bg.png
+t1278357782
+s3230
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/ps_close.png
+t1278357782
+s2832
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/publish_button_color.png
+t1278357782
+s2800
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/settings_deselected.png
+t1278357782
+s3607
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/settings_selected.png
+t1278357782
+s3520
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/shadow-up.png
+t1278357782
+s3615
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-115x49-black.png
+t1278357783
+s9847
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-115x49-grey.png
+t1278357783
+s9669
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-115x49-pink-shine.png
+t1278357783
+s11962
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-115x49-pink.png
+t1278357783
+s11821
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-163x31-black.png
+t1278357783
+s8530
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-163x31-grey.png
+t1278357783
+s7875
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-163x31-pink-shine.png
+t1278357783
+s8984
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-163x31-pink.png
+t1278357783
+s8913
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-87x31-black.png
+t1278357783
+s6757
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-87x31-grey.png
+t1278357783
+s6723
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-87x31-pink-shine.png
+t1278357783
+s7113
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-87x31-pink.png
+t1278357783
+s7052
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/shine.png
+t1278357782
+s3786
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/shine_publish_button.png
+t1278357783
+s3430
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/sn_button_bg_highlighted.png
+t1278357783
+s3243
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/sn_button_bg_normal.png
+t1278357783
+s3248
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/sn_button_bg_selected.png
+t1278357783
+s3535
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework
+t1278358547
+s430352
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/topbar.png
+t1278357783
+s3704
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/main.o
+t1278358547
+s6496
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_framework
+t1278357829
+s181368
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_framework.LinkFileList
+c000000004C323413000000000000021F
+t1278358547
+s543
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkAppDelegate.o
+t1278358547
+s39904
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkViewController.o
+t1278358547
+s49480
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv7/main.o
+t1278357788
+s6480
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv7/test_ps_framework
+t1278357829
+s180752
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv7/test_ps_framework.LinkFileList
+c000000004C323114000000000000021F
+t1278357780
+s543
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv7/test_ps_frameworkAppDelegate.o
+t1278357788
+s46052
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv7/test_ps_frameworkViewController.o
+t1278357788
+s51472
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/StaticAnalyzer/normal/armv6/main.plist
+t1278358547
+s275
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/StaticAnalyzer/normal/armv6/test_ps_frameworkAppDelegate.plist
+t1278358547
+s275
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/StaticAnalyzer/normal/armv6/test_ps_frameworkViewController.plist
+t1278358547
+s275
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/StaticAnalyzer/normal/armv7/main.plist
+t1278357789
+s276
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/StaticAnalyzer/normal/armv7/test_ps_frameworkAppDelegate.plist
+t1278357789
+s276
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/StaticAnalyzer/normal/armv7/test_ps_frameworkViewController.plist
+t1278357789
+s276
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent
+t1275658500
+s330
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/custom_image.png
+c000000004BC6B1140000000000001755
+t1271312660
+s5973
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/custom_image_highlighted.png
+c000000004BC6B1140000000000001755
+t1271312660
+s5973
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m
+c000000004C0636AB000000000000017A
+t1275475627
+s378
+i<UIKit/UIKit.h>
+
+N/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/test_ps_framework_Prefix.pch
+c000000004C0636AB0000000000000215
+t1275475627
+s533
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-bmkuehaunwenkjhfgzbyfqgxzvft/test_ps_framework_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-chktlxnhgigchibjfhhigwymzyrl/test_ps_framework_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-duazpiyayfllbnaahujxybbilolg/test_ps_framework_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-eczopgisuexawxdsmoruidydzywy/test_ps_framework_Prefix.pch.pth
+t1278357787
+s2664852
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-eyzihzkmwyukhmctchqbxokeperv/test_ps_framework_Prefix.pch.pth
+t1278357787
+s2664680
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-fbvchkaqazujxjafzhdekcihyngg/test_ps_framework_Prefix.pch.gch
+t1278357786
+s10311216
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-feftrwxsxxoiplchrqfgyzifyrkf/test_ps_framework_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gnzvjdjhlxbzlzawnhuctgesupxg/test_ps_framework_Prefix.pch.pth
+t1275658499
+s1677220
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gpsvycpiezilefezpyndfuxxmajw/test_ps_framework_Prefix.pch.gch
+t1278357787
+s9852464
+
+N/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-hjoogekzekuomrbehfrobyjafjnd/test_ps_framework_Prefix.pch.gch
+t1275658499
+s8388792
+
+Ntest_ps_framework-Info.plist
+c000000004C0D854500000000000003DE
+t1275954501
+s990
+
+CAnalyze "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m"
+s297351300.056031
+e297351300.096155
+r1
+xAnalyze
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m
+lSLF07#2@113"Analyze /Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m297351300#297351300#0(0"0(0#0#105"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m4300911832#2402"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.1 -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-generated-files.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-own-target-headers.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-all-target-headers.hmap" -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-project-headers.hmap" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/include" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources/armv6" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources" -include /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gnzvjdjhlxbzlzawnhuctgesupxg/test_ps_framework_Prefix.pch --analyze "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m" -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/StaticAnalyzer/normal/armv6/test_ps_frameworkAppDelegate.plist"0#
+
+CAnalyze "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m"
+s297351300.096269
+e297351300.142072
+r1
+xAnalyze
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m
+lSLF07#2@116"Analyze /Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m297351300#297351300#0(0"0(0#0#108"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m4300911832#2408"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.1 -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-generated-files.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-own-target-headers.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-all-target-headers.hmap" -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-project-headers.hmap" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/include" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources/armv6" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources" -include /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gnzvjdjhlxbzlzawnhuctgesupxg/test_ps_framework_Prefix.pch --analyze "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m" -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/StaticAnalyzer/normal/armv6/test_ps_frameworkViewController.plist"0#
+
+CAnalyze "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m"
+s297351299.992752
+e297351300.055922
+r1
+xAnalyze
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m
+lSLF07#2@81"Analyze /Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m297351299#297351300#0(0"0(0#0#73"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m4300911832#2346"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.1 -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-generated-files.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-own-target-headers.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-all-target-headers.hmap" -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-project-headers.hmap" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/include" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources/armv6" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources" -include /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gnzvjdjhlxbzlzawnhuctgesupxg/test_ps_framework_Prefix.pch --analyze "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m" -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/StaticAnalyzer/normal/armv6/main.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297351299#297351299#0(0"0(0#1#0"4300911832#0"0#
+
+CCodeSign "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app"
+s297351300.408507
+e297351300.561758
+r1
+xCodeSign
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app
+lSLF07#2@51"CodeSign build/Debug-iphoneos/test_ps_framework.app297351300#297351300#0(0"0(0#0#109"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app4300911832#844"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Alexander van Elsas (2LHJM9LRQL)" "--resource-rules=/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/ResourceRules.plist" --entitlements "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent" "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app"0#
+
+CCompileC build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/main.o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297351299.904585
+e297351299.967982
+r1
+xCompileC
+xbuild/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/main.o
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m297351299#297351299#0(0"0(0#0#73"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m4300911832#2325"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-generated-files.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-own-target-headers.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-all-target-headers.hmap" -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-project-headers.hmap" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/include" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources/armv6" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources" -include /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-hjoogekzekuomrbehfrobyjafjnd/test_ps_framework_Prefix.pch -c "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m" -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkAppDelegate.o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297351299.906273
+e297351299.992648
+r1
+xCompileC
+xbuild/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkAppDelegate.o
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m297351299#297351299#0(0"0(0#0#105"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m4300911832#2381"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-generated-files.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-own-target-headers.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-all-target-headers.hmap" -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-project-headers.hmap" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/include" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources/armv6" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources" -include /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-hjoogekzekuomrbehfrobyjafjnd/test_ps_framework_Prefix.pch -c "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m" -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkAppDelegate.o"0#
+
+CCompileC build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkViewController.o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297351299.968095
+e297351300.190064
+r1
+xCompileC
+xbuild/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkViewController.o
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m297351299#297351300#0(0"0(0#0#108"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m4300911832#2387"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-generated-files.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-own-target-headers.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-all-target-headers.hmap" -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-project-headers.hmap" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/include" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources/armv6" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources" -include /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-hjoogekzekuomrbehfrobyjafjnd/test_ps_framework_Prefix.pch -c "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m" -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_frameworkViewController.o"0#
+
+CCompileC build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv7/main.o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv7/test_ps_frameworkAppDelegate.o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv7/test_ps_frameworkViewController.o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Classes/test_ps_frameworkViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/MainWindow.xib"
+s297351299.047807
+e297351299.321122
+r1
+xCompileXIB
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib297351299#297351299#0(0"0(0#0#81"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/MainWindow.xib4300911832#566"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/MainWindow.nib" "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/MainWindow.xib"0#
+
+CCompileXIB "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Resources/PSMainViewController.xib"
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/app_icon_shadow.png" Resources/PSimages/maindesign/app_icon_shadow.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/bg-networks.png" Resources/PSimages/maindesign/bg-networks.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/bg-publish.png" Resources/PSimages/maindesign/bg-publish.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/bottom.png" Resources/PSimages/maindesign/bottom.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/button-shine.png" Resources/PSimages/maindesign/button-shine.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/close.png" Resources/PSimages/maindesign/close.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/custom_image.png" custom_image.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/custom_image_highlighted.png" custom_image_highlighted.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/done_deselected.png" Resources/PSimages/maindesign/done_deselected.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/done_selected.png" Resources/PSimages/maindesign/done_selected.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-facebook-small.png" Resources/PSimages/maindesign/icon-facebook-small.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-facebook.png" Resources/PSimages/maindesign/icon-facebook.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-leeg-small.png" Resources/PSimages/maindesign/icon-leeg-small.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-leeg.png" Resources/PSimages/maindesign/icon-leeg.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-twitter-small.png" Resources/PSimages/maindesign/icon-twitter-small.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/icon-twitter.png" Resources/PSimages/maindesign/icon-twitter.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/like-54x31-pink.png" Resources/PSimages/likebuttons/like-54x31-pink.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/like-60x31-black.png" Resources/PSimages/likebuttons/like-60x31-black.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/like-67x31-black.png" Resources/PSimages/likebuttons/like-67x31-black.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/like-67x31-grey.png" Resources/PSimages/likebuttons/like-67x31-grey.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pinkelstar.png" Resources/PSimages/maindesign/pinkelstar.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pinkelstar_icon_20_20.png" Resources/PSimages/maindesign/pinkelstar_icon_20_20.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/placeholder_app_icon.png" Resources/PSimages/maindesign/placeholder_app_icon.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/placeholder_button_icon.png" Resources/PSimages/maindesign/placeholder_button_icon.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pref_placeholder_icon_small.png" Resources/PSimages/maindesign/pref_placeholder_icon_small.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pref_table_bottomrow_bg.png" Resources/PSimages/maindesign/pref_table_bottomrow_bg.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pref_table_row_bg.png" Resources/PSimages/maindesign/pref_table_row_bg.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/pref_table_toprow_bg.png" Resources/PSimages/maindesign/pref_table_toprow_bg.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/ps_close.png" Resources/PSimages/maindesign/ps_close.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/publish_button_color.png" Resources/PSimages/maindesign/publish_button_color.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/settings_deselected.png" Resources/PSimages/maindesign/settings_deselected.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/settings_selected.png" Resources/PSimages/maindesign/settings_selected.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/shadow-up.png" Resources/PSimages/maindesign/shadow-up.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-115x49-black.png" Resources/PSimages/sharebuttons/share-115x49-black.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-115x49-grey.png" Resources/PSimages/sharebuttons/share-115x49-grey.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-115x49-pink-shine.png" Resources/PSimages/sharebuttons/share-115x49-pink-shine.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-115x49-pink.png" Resources/PSimages/sharebuttons/share-115x49-pink.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-163x31-black.png" Resources/PSimages/sharebuttons/share-163x31-black.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-163x31-grey.png" Resources/PSimages/sharebuttons/share-163x31-grey.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-163x31-pink-shine.png" Resources/PSimages/sharebuttons/share-163x31-pink-shine.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-163x31-pink.png" Resources/PSimages/sharebuttons/share-163x31-pink.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-87x31-black.png" Resources/PSimages/sharebuttons/share-87x31-black.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-87x31-grey.png" Resources/PSimages/sharebuttons/share-87x31-grey.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-87x31-pink-shine.png" Resources/PSimages/sharebuttons/share-87x31-pink-shine.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/share-87x31-pink.png" Resources/PSimages/sharebuttons/share-87x31-pink.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/shine.png" Resources/PSimages/maindesign/shine.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/shine_publish_button.png" Resources/PSimages/maindesign/shine_publish_button.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/sn_button_bg_highlighted.png" Resources/PSimages/maindesign/sn_button_bg_highlighted.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/sn_button_bg_normal.png" Resources/PSimages/maindesign/sn_button_bg_normal.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/sn_button_bg_selected.png" Resources/PSimages/maindesign/sn_button_bg_selected.png
+r0
+
+CCopyPNGFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/topbar.png" Resources/PSimages/maindesign/topbar.png
+r0
+
+CCopyPlistFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/ApplicationDeveloper.plist" Resources/ApplicationDeveloper.plist
+r0
+
+CCopyStringsFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/Localizable.strings" Resources/Localizable.strings
+r0
+
+CCpResource build/Debug-iphoneos/test_ps_framework.app/FBConnect.bundle Include/PinkelStar/FBConnect.bundle
+s297351299.049434
+e297351299.068584
+r1
+xCpResource
+xbuild/Debug-iphoneos/test_ps_framework.app/FBConnect.bundle
+xInclude/PinkelStar/FBConnect.bundle
+lSLF07#2@40"Copy Include/PinkelStar/FBConnect.bundle297351299#297351299#0(0"0(0#0#102"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Include/PinkelStar/FBConnect.bundle4300911832#565"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Include/PinkelStar/FBConnect.bundle" "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app"0#
+
+CCpResource build/Debug-iphoneos/test_ps_framework.app/PinkelStar.bundle Include/PinkelStar/PinkelStar.bundle
+s297351299.066892
+e297351299.082563
+r1
+xCpResource
+xbuild/Debug-iphoneos/test_ps_framework.app/PinkelStar.bundle
+xInclude/PinkelStar/PinkelStar.bundle
+lSLF07#2@41"Copy Include/PinkelStar/PinkelStar.bundle297351299#297351299#0(0"0(0#0#103"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Include/PinkelStar/PinkelStar.bundle4300911832#566"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/Include/PinkelStar/PinkelStar.bundle" "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app"0#
+
+CCpResource build/Debug-iphoneos/test_ps_framework.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+s297351299.025483
+e297351299.047262
+r1
+xCpResource
+xbuild/Debug-iphoneos/test_ps_framework.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist297351299#297351299#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist4300911832#550"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app"0#
+
+CCpResource build/Debug-iphoneos/test_ps_framework.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Debug-iphoneos/test_ps_framework.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app.dSYM" "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework"
+s297351300.311288
+e297351300.385882
+r1
+xGenerateDSYMFile
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app.dSYM
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework
+lSLF07#2@125"GenerateDSYMFile build/Debug-iphoneos/test_ps_framework.app.dSYM build/Debug-iphoneos/test_ps_framework.app/test_ps_framework297351300#297351300#0(0"0(0#0#127"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework4300911832#482"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework" -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app.dSYM"0#
+
+CLd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework" normal armv6
+s297351300.190162
+e297351300.311168
+r1
+xLd
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework
+xnormal
+xarmv6
+lSLF07#2@132"Link /Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework297351300#297351300#0(0"0(0#0#0"4300911832#1159"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk "-L/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app" -filelist "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_framework.LinkFileList" -dead_strip -ObjC -miphoneos-version-min=3.1 -framework CoreGraphics -framework Foundation -framework SystemConfiguration -framework UIKit -lxml2 -framework PinkelStar -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/test_ps_framework"0#
+
+CLd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv6/test_ps_framework" normal armv6
+r0
+
+CLd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/Objects-normal/armv7/test_ps_framework" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/Info.plist" test_ps_framework-Info.plist
+s297351299.026960
+e297351299.044474
+r1
+xProcessInfoPlistFile
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/Info.plist
+xtest_ps_framework-Info.plist
+lSLF07#2@36"Process test_ps_framework-Info.plist297351299#297351299#0(0"0(0#0#95"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/test_ps_framework-Info.plist4300911832#722"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility test_ps_framework-Info.plist -genpkginfo "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/ResourceRules.plist" -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/Info.plist"0#
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-bmkuehaunwenkjhfgzbyfqgxzvft/test_ps_framework_Prefix.pch.gch test_ps_framework_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-chktlxnhgigchibjfhhigwymzyrl/test_ps_framework_Prefix.pch.pth test_ps_framework_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-duazpiyayfllbnaahujxybbilolg/test_ps_framework_Prefix.pch.pth test_ps_framework_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-eczopgisuexawxdsmoruidydzywy/test_ps_framework_Prefix.pch.pth test_ps_framework_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-eyzihzkmwyukhmctchqbxokeperv/test_ps_framework_Prefix.pch.pth test_ps_framework_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-fbvchkaqazujxjafzhdekcihyngg/test_ps_framework_Prefix.pch.gch test_ps_framework_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-feftrwxsxxoiplchrqfgyzifyrkf/test_ps_framework_Prefix.pch.gch test_ps_framework_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gnzvjdjhlxbzlzawnhuctgesupxg/test_ps_framework_Prefix.pch.pth test_ps_framework_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s297351299.322652
+e297351299.540411
+r1
+xProcessPCH
+x/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gnzvjdjhlxbzlzawnhuctgesupxg/test_ps_framework_Prefix.pch.pth
+xtest_ps_framework_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@39"Precompile test_ps_framework_Prefix.pch297351299#297351299#0(0"0(0#0#95"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/test_ps_framework_Prefix.pch4300911832#2186"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.1 -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-generated-files.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-own-target-headers.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-all-target-headers.hmap" -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-project-headers.hmap" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/include" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources/armv6" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources" -c "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/test_ps_framework_Prefix.pch" -o /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gnzvjdjhlxbzlzawnhuctgesupxg/test_ps_framework_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-gpsvycpiezilefezpyndfuxxmajw/test_ps_framework_Prefix.pch.gch test_ps_framework_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-hjoogekzekuomrbehfrobyjafjnd/test_ps_framework_Prefix.pch.gch test_ps_framework_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297351299.321505
+e297351299.904417
+r1
+xProcessPCH
+x/var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-hjoogekzekuomrbehfrobyjafjnd/test_ps_framework_Prefix.pch.gch
+xtest_ps_framework_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile test_ps_framework_Prefix.pch297351299#297351299#0(0"0(0#0#95"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/test_ps_framework_Prefix.pch4300911832#2183"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-generated-files.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-own-target-headers.hmap" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-all-target-headers.hmap" -iquote "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework-project-headers.hmap" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos" "-F/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/include" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources/armv6" "-I/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/DerivedSources" -c "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/test_ps_framework_Prefix.pch" -o /var/folders/Tq/TqvHdI7vE6mag7rXzTfLCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_ps_framework_Prefix-hjoogekzekuomrbehfrobyjafjnd/test_ps_framework_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/vanelsas/Library/MobileDevice/Provisioning Profiles/8B0F4026-AA88-42CB-BFFC-5C72A625E6BB.mobileprovision" "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/Users/vanelsas/Library/MobileDevice/Provisioning Profiles/B3A56A35-D011-4571-A89D-E261206839CF.mobileprovision" "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/embedded.mobileprovision"
+s297351300.385990
+e297351300.387406
+r1
+xProcessProductPackaging
+x/Users/vanelsas/Library/MobileDevice/Provisioning Profiles/B3A56A35-D011-4571-A89D-E261206839CF.mobileprovision
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/embedded.mobileprovision
+lSLF07#2@205"ProcessProductPackaging "/Users/vanelsas/Library/MobileDevice/Provisioning Profiles/B3A56A35-D011-4571-A89D-E261206839CF.mobileprovision" build/Debug-iphoneos/test_ps_framework.app/embedded.mobileprovision297351300#297351300#0(0"0(0#0#134"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/embedded.mobileprovision4300911832#496"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/vanelsas/Library/MobileDevice/Provisioning Profiles/B3A56A35-D011-4571-A89D-E261206839CF.mobileprovision" -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent"
+s297351300.390872
+e297351300.408414
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent
+lSLF07#2@205"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent297351300#297351300#0(0"0(0#0#159"/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent4300911832#522"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/test_ps_framework.build/Debug-iphoneos/test_ps_framework.build/test_ps_framework.xcent"
+r0
+
+CTouch "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app"
+s297351300.387465
+e297351300.390777
+r1
+xTouch
+x/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app
+lSLF07#2@115"Touch /Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app297351300#297351300#0(0"0(0#0#0"4300911832#334"    cd "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/vanelsas/Xcode projects/pinkelstar-iphone-demo-app/demo-app/build/Debug-iphoneos/test_ps_framework.app"0#
+
