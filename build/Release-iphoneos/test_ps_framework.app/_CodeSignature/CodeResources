@@ -4,33 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ApplicationDeveloper.plist</key>
-		<data>
-		rjagZda13RvGWCYhmdeG2kpGQko=
-		</data>
 		<key>Localizable.strings</key>
 		<data>
 		1WAZ36FRfYUyMyKGN8Qe5kjbAzk=
 		</data>
 		<key>MainWindow-iPad.nib</key>
 		<data>
-		HJDO0gnnBrpQBmyygjUCXnk8vCo=
+		Rejo3jahbYbG6pzROlref+vSRTM=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		VsPblLvYliRumHjP/tkFBWNsgxs=
-		</data>
-		<key>PSMainViewController.nib</key>
-		<data>
-		13W5Bx5SO+n6bebH6S+S92AEpU4=
+		UlwWyuBX5v35kudXN2XE1K5OrYU=
 		</data>
 		<key>PSMainViewController_iPad.nib</key>
 		<data>
-		rOynHFgap05d4oXneWf+83A68Y4=
+		H2FZihjhAFizMEpPfZdYQqrk2kI=
 		</data>
 		<key>PSMainViewController_iPhone.nib</key>
 		<data>
-		t9MSar5cmj1PBooWRuODVeXw+I0=
+		pM+eyQsh/CT+nnGrZWDjY7XHH+c=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -159,14 +151,6 @@
 		<key>pinkelstar@2x.png</key>
 		<data>
 		r5t7amceLLaEH2HZracFemsbhcE=
-		</data>
-		<key>pinkelstar_bl_corner_iPad.png</key>
-		<data>
-		fbZ2b94fTZGlg91u8JeWwYQDkTU=
-		</data>
-		<key>pinkelstar_br_corner_iPad.png</key>
-		<data>
-		uBBNQj4da8lVKxX2jY47Y7SXGkU=
 		</data>
 		<key>pinkelstar_button_icon_medium.png</key>
 		<data>
@@ -319,10 +303,6 @@
 		<key>pinkelstar_share_button_small_pinkshine@2x.png</key>
 		<data>
 		YArr+iTNEbYuBpbMOm2848Gk0Z8=
-		</data>
-		<key>pinkelstar_tl_corner_iPad.png</key>
-		<data>
-		kp6MHW4C3KxIaXJVagIvJtEDido=
 		</data>
 		<key>pinkelstar_tr_corner_iPad.png</key>
 		<data>

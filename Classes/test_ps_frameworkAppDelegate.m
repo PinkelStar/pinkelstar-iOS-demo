@@ -38,7 +38,7 @@
 	}
 	psMainViewController.delegate = self;
 	
-	//[psMainViewController setEventType:PSInstallationEvent];
+	[psMainViewController setEventType:PSLikeEvent];
 	
 	// Display all types of buttons here.
 	// Normally we would obviously choose only one :-)
@@ -115,7 +115,8 @@
 	[shareButton13 setCustomButtonImageName:[NSString stringWithFormat:@"custom_image.png"]];
 	[shareButton13 setCustomButtonHighlightedImageName:[NSString stringWithFormat:@"custom_image_highlighted.png"]];
 	shareButton13.delegate = self;
-	[shareButton13 setButtonPosition:CGPointMake(35,430)];
+	[shareButton13 setButtonPosition:CGPointMake(250,330)];
+	[shareButton13 usePinkelStarIcon:NO];
 	
 	//new LIKE buttons
 	PSShareButton *shareButton14 = [[[PSShareButton alloc] init] autorelease];
