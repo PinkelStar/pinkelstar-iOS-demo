@@ -1,5 +1,5 @@
-PinkelStar iPhone/iPhone4/iPad Framework
-========================================
+PinkelStar iPhone/iPhone4/iPad Framework v0.9.1
+===============================================
 
 
 This is the home of the PinkelStar iOS Demo app. To use this demo app you will need to register a developer
