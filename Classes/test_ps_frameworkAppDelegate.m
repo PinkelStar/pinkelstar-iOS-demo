@@ -165,6 +165,17 @@
 // PSShareButtonDelegate
 - (void)psSharebutonPressed:(PSShareButton *)shareButton;
 {
+	// The PSMainViewController clas defaults to an installation event <user> has just downloaded <your_app_name>
+	//
+	// There are several possibilites for customization, please take a look at the PSMainViewController.h file for details
+	// e.g.
+	// Set a specific content url that appears in the share message using
+	// [psMainViewController addContentUrl:<a content url>];
+	//
+	// Change the share message type and content
+	// [psMainViewController setPSEventType:PSCustomEvent];
+	// [psMainViewController addCustomShareMessage:<a different share message>;
+	// Etc.
 	[rootController presentModalViewController:psMainViewController animated:YES];
 }
 

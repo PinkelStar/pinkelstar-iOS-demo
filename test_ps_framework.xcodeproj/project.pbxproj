@@ -16,6 +16,7 @@
 		27A6137211B4208B00FF8BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137111B4208B00FF8BBA /* Foundation.framework */; };
 		27A6137411B4209C00FF8BBA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137311B4209C00FF8BBA /* SystemConfiguration.framework */; };
 		27A6137611B420A300FF8BBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137511B420A300FF8BBA /* UIKit.framework */; };
+		27BB981E124A09B900A81372 /* PinkelStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BB981D124A09B900A81372 /* PinkelStar.framework */; };
 		27C1634C122D5BCC007C2E44 /* PSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C162D3122D5BCC007C2E44 /* PSMainViewController.m */; };
 		27C1634D122D5BCC007C2E44 /* PSShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C162D4122D5BCC007C2E44 /* PSShareButton.m */; };
 		27C1634E122D5BCC007C2E44 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C162D6122D5BCC007C2E44 /* Localizable.strings */; };
@@ -132,7 +133,6 @@
 		27C163BD122D5BCC007C2E44 /* sn_button_bg_normal_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C16349122D5BCC007C2E44 /* sn_button_bg_normal_iPad.png */; };
 		27C163BE122D5BCC007C2E44 /* sn_button_bg_selected_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1634A122D5BCC007C2E44 /* sn_button_bg_selected_iPad.png */; };
 		27C163BF122D5BCC007C2E44 /* topbar_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1634B122D5BCC007C2E44 /* topbar_iPad.png */; };
-		27C163C1122D5BE9007C2E44 /* PinkelStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C163C0122D5BE9007C2E44 /* PinkelStar.framework */; };
 		27EA45EF122A5EC000894770 /* SimpleRotationUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EA45EE122A5EC000894770 /* SimpleRotationUIViewController.m */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
@@ -148,6 +148,7 @@
 		27A6137111B4208B00FF8BBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27A6137311B4209C00FF8BBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		27A6137511B420A300FF8BBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27BB981D124A09B900A81372 /* PinkelStar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PinkelStar.framework; path = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar.framework"; sourceTree = "<absolute>"; };
 		27C162C7122D5BCC007C2E44 /* PSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMainViewController.h; sourceTree = "<group>"; };
 		27C162C8122D5BCC007C2E44 /* PSMainViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMainViewControllerDelegate.h; sourceTree = "<group>"; };
 		27C162C9122D5BCC007C2E44 /* PSPermissionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPermissionView.h; sourceTree = "<group>"; };
@@ -275,7 +276,6 @@
 		27C16349122D5BCC007C2E44 /* sn_button_bg_normal_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sn_button_bg_normal_iPad.png; sourceTree = "<group>"; };
 		27C1634A122D5BCC007C2E44 /* sn_button_bg_selected_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sn_button_bg_selected_iPad.png; sourceTree = "<group>"; };
 		27C1634B122D5BCC007C2E44 /* topbar_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar_iPad.png; sourceTree = "<group>"; };
-		27C163C0122D5BE9007C2E44 /* PinkelStar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PinkelStar.framework; path = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar.framework"; sourceTree = "<absolute>"; };
 		27EA45ED122A5EC000894770 /* SimpleRotationUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRotationUIViewController.h; sourceTree = "<group>"; };
 		27EA45EE122A5EC000894770 /* SimpleRotationUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRotationUIViewController.m; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -294,7 +294,7 @@
 				27A6137411B4209C00FF8BBA /* SystemConfiguration.framework in Frameworks */,
 				27A6137611B420A300FF8BBA /* UIKit.framework in Frameworks */,
 				278988A912116F7800906227 /* QuartzCore.framework in Frameworks */,
-				27C163C1122D5BE9007C2E44 /* PinkelStar.framework in Frameworks */,
+				27BB981E124A09B900A81372 /* PinkelStar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +528,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				278988A812116F7800906227 /* QuartzCore.framework */,
-				27C163C0122D5BE9007C2E44 /* PinkelStar.framework */,
+				27BB981D124A09B900A81372 /* PinkelStar.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -591,7 +591,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "test_ps_framework" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -760,7 +767,7 @@
 				GCC_PREFIX_HEADER = test_ps_framework_Prefix.pch;
 				INFOPLIST_FILE = "test_ps_framework-Info.plist";
 				PRODUCT_NAME = test_ps_framework;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphonesimulator4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -779,7 +786,7 @@
 				GCC_PREFIX_HEADER = test_ps_framework_Prefix.pch;
 				INFOPLIST_FILE = "test_ps_framework-Info.plist";
 				PRODUCT_NAME = test_ps_framework;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

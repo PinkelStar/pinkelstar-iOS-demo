@@ -2,14 +2,9 @@
 // Prefix header for all source files of the 'test_ps_framework' target in the 'test_ps_framework' project
 //
 
+#import <PinkelStar/PSCommon.h>
+
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
-#endif
-
-// we use this label to ensure we do not conflict with others setting up a debug label
-#ifdef PS_DEBUG_MODE
-#define DebugLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
-#else
-#define DebugLog( s, ... ) 
 #endif

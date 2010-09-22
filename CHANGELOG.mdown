@@ -1,0 +1,46 @@
+Changelog iOS PinkelStar framework
+======================================
+
+Tuesday September 22st 2010
+---------------------------
+- Fixed a bug that caused addCustmShareMessage not to function properly
+- Added a PSCommon.h file that includes our DebugLog code. Make sure to include that in your project .pch file
+- Added a version nr to both the PinkelStar UI code and the PinkelStar server Framework. Currently set at v 0.9.1;
+
+Wednesday September 8th 2010
+----------------------------
+- Fixed a bug where the library would crash if the internet Connection went down
+- Reachability now autorecovers. If there is no Internet available the user will be notified properly. If the Internet returns, the user can continue its business properly
+
+Friday August 27th 2010
+-----------------------
+- Added a SimpleRotationViewController class for demo iPad rotation
+- iPad rotation fixes
+- LinkedIn support ready
+- updated pinkelstar-info.plist to ensure the framework can rotate in all directions for iPad
+
+Tuesday August 23rd 2010
+-------------------
+- Support for iPad
+- Simplified demo app
+- rewrote Readme.txt
+
+Wednesday August 18th 2010
+--------------------------
+- Support for iOS4 retina display
+- Added @2x versions of all images used in the UI to the project
+- UI now loads correct low/highres image depending on detection of Retina display
+- Highres images loaded from the server when Retina is detected
+
+Friday August 13th 2010
+-----------------------
+- Renamed AplicationDeveloper.plist to pinkelstar.plist
+Tuesday August 10th 2010
+- Fixed reported bug about share buttons not initializing properly.
+
+Monday August 9th 2010
+----------------------
+- Open Sourced the UI of the iPhone client software
+- Added content_urls for the developer
+- Now initializing PinkelStar at application startup to speed up initial interface view
+- SSL is now used for every server call
