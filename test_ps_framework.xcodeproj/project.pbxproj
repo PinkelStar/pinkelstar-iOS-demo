@@ -11,12 +11,12 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		2721543811BF57DC00575238 /* custom_image_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 2721543611BF57DC00575238 /* custom_image_highlighted.png */; };
 		2721543911BF57DC00575238 /* custom_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2721543711BF57DC00575238 /* custom_image.png */; };
+		27648116124B817400909CE6 /* PinkelStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27648115124B817400909CE6 /* PinkelStar.framework */; };
 		278988A912116F7800906227 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278988A812116F7800906227 /* QuartzCore.framework */; };
 		27A6137011B4208300FF8BBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6136F11B4208300FF8BBA /* CoreGraphics.framework */; };
 		27A6137211B4208B00FF8BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137111B4208B00FF8BBA /* Foundation.framework */; };
 		27A6137411B4209C00FF8BBA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137311B4209C00FF8BBA /* SystemConfiguration.framework */; };
 		27A6137611B420A300FF8BBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137511B420A300FF8BBA /* UIKit.framework */; };
-		27BB981E124A09B900A81372 /* PinkelStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BB981D124A09B900A81372 /* PinkelStar.framework */; };
 		27C1634C122D5BCC007C2E44 /* PSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C162D3122D5BCC007C2E44 /* PSMainViewController.m */; };
 		27C1634D122D5BCC007C2E44 /* PSShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C162D4122D5BCC007C2E44 /* PSShareButton.m */; };
 		27C1634E122D5BCC007C2E44 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C162D6122D5BCC007C2E44 /* Localizable.strings */; };
@@ -143,12 +143,12 @@
 		1D6058910D05DD3D006BFB54 /* test_ps_framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_ps_framework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2721543611BF57DC00575238 /* custom_image_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_image_highlighted.png; sourceTree = "<group>"; };
 		2721543711BF57DC00575238 /* custom_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_image.png; sourceTree = "<group>"; };
+		27648115124B817400909CE6 /* PinkelStar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PinkelStar.framework; path = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar.framework"; sourceTree = "<absolute>"; };
 		278988A812116F7800906227 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		27A6136F11B4208300FF8BBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		27A6137111B4208B00FF8BBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27A6137311B4209C00FF8BBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		27A6137511B420A300FF8BBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		27BB981D124A09B900A81372 /* PinkelStar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PinkelStar.framework; path = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar.framework"; sourceTree = "<absolute>"; };
 		27C162C7122D5BCC007C2E44 /* PSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMainViewController.h; sourceTree = "<group>"; };
 		27C162C8122D5BCC007C2E44 /* PSMainViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMainViewControllerDelegate.h; sourceTree = "<group>"; };
 		27C162C9122D5BCC007C2E44 /* PSPermissionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPermissionView.h; sourceTree = "<group>"; };
@@ -294,7 +294,7 @@
 				27A6137411B4209C00FF8BBA /* SystemConfiguration.framework in Frameworks */,
 				27A6137611B420A300FF8BBA /* UIKit.framework in Frameworks */,
 				278988A912116F7800906227 /* QuartzCore.framework in Frameworks */,
-				27BB981E124A09B900A81372 /* PinkelStar.framework in Frameworks */,
+				27648116124B817400909CE6 /* PinkelStar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +528,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				278988A812116F7800906227 /* QuartzCore.framework */,
-				27BB981D124A09B900A81372 /* PinkelStar.framework */,
+				27648115124B817400909CE6 /* PinkelStar.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -800,6 +800,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DPS_DEBUG_MODE";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;

@@ -14,31 +14,18 @@
 @synthesize window;
 @synthesize rootController;
 @synthesize psMainViewController;
+@synthesize psServerSharedInstance;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
 	// Make sure that the ROOT ViewController is capable of rotating in all directions
 	rootController = [[SimpleRotationUIViewController alloc] init];
-
-	// Set up the main PinkelStar Viewcontroller as early as possible so that
-	// it can do some initialization in the background
-	// it will make the actual user call instant.
-	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-		DebugLog(@"Opening the iPad nib file now");
-		psMainViewController = [[PSMainViewController alloc] initWithNibName:@"PSMainViewController_iPad" bundle:nil];
-		psMainViewController.modalPresentationStyle = UIModalPresentationFormSheet;
-		psMainViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-	} 
-	else 
-	{
-		psMainViewController = [[PSMainViewController alloc] initWithNibName:@"PSMainViewController_iPhone" bundle:nil];
-		psMainViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-		
-	}
-	psMainViewController.delegate = self;
 	
-	[psMainViewController setEventType:PSLikeEvent];
+	// We initialize the server at program launch. This enables the server to send us all relevant data
+	// to set up the PinkelStar sharing process
+	psServerSharedInstance = [PSPinkelStarServer sharedInstance];
+
 	
 	// Display all types of buttons here.
 	// Normally we would obviously choose only one :-)
@@ -176,6 +163,24 @@
 	// [psMainViewController setPSEventType:PSCustomEvent];
 	// [psMainViewController addCustomShareMessage:<a different share message>;
 	// Etc.
+	
+	// Set up the main PinkelStar Viewcontroller
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+		DebugLog(@"Opening the iPad nib file now");
+		psMainViewController = [[PSMainViewController alloc] initWithNibName:@"PSMainViewController_iPad" bundle:nil];
+		psMainViewController.modalPresentationStyle = UIModalPresentationFormSheet;
+		psMainViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	} 
+	else 
+	{
+		psMainViewController = [[PSMainViewController alloc] initWithNibName:@"PSMainViewController_iPhone" bundle:nil];
+		psMainViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+		
+	}
+	psMainViewController.delegate = self;
+	
+	[psMainViewController setEventType:PSInstallationEvent];
+	
 	[rootController presentModalViewController:psMainViewController animated:YES];
 }
 
@@ -188,6 +193,7 @@
 
 - (void)dealloc {
     [rootController release];
+	[psServerSharedInstance release];
     [window release];
     [super dealloc];
 }

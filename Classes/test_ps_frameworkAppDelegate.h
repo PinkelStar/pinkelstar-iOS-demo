@@ -10,6 +10,7 @@
 #import <PinkelStar/PSPinkelStar.h>
 
 @class PSMainViewController;
+@class PSPinkelStarServer;
 @class SimpleRotationUIViewController;
 
 @interface test_ps_frameworkAppDelegate : NSObject 
@@ -17,11 +18,13 @@
     UIWindow *window;
     SimpleRotationUIViewController *rootController;
 	PSMainViewController *psMainViewController;
+	PSPinkelStarServer *psServerSharedInstance;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet SimpleRotationUIViewController *rootController;
 @property (nonatomic, retain) IBOutlet PSMainViewController *psMainViewController;
+@property (nonatomic, retain) PSPinkelStarServer *psServerSharedInstance;
 
 @end
 
