@@ -2,13 +2,17 @@ PinkelStar iPhone/iPhone4/iPad Framework v0.9.1.singleton.1
 ===========================================================
 
 
-This is a separate branch of the PinkelStar iOS Demo app. We are implementing the PineklStar server using the Singleton pattern. As you will see in the demo app, it allows us to load the PSMainViewController lazy, as it should be done. Please test at will. Once we are satisfied we will update the main branch of the project.
+This is a separate branch of the PinkelStar iOS Demo app. We are implementing the PinkelStar server using the Singleton pattern. As you will see in the demo app, it allows us to load the PSMainViewController lazy, as it should be done. Please test at will. Once we are satisfied we will update the main branch of the project.
 
 
 To use this demo app you will need to register a developer
 account at [PinkelStar](http://www.pinkelstar.com). Once registered, you can download the demo app by cloning this repository :
 
     git clone git@github.com:PinkelStar/pinkelstar-iOS-demo.git
+
+Make sure you switch to the correct branch using:
+
+	git checkout -b /remotes/origin/SingletonServer2
 
 In the demo app folder you will find a complete and simple test application that uses the PinkelStar framework to build and display different types of like and share buttons. When such a button is pressed, the user can share content with friends on Facebook, Twitter and LinkedIn.
 
