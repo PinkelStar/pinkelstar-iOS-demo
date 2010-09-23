@@ -132,7 +132,8 @@ static CGFloat permissionViewOffsetY = 26.0;
 // Current version of the PSPinkelStar UI code
 + (NSString *) version
 {
-	return @"0.9.1";
+	// return @"0.9.1";
+	return @"v.0.9.1.singleton.1";
 	
 }
 

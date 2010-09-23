@@ -1,8 +1,11 @@
-PinkelStar iPhone/iPhone4/iPad Framework v0.9.1
-===============================================
+PinkelStar iPhone/iPhone4/iPad Framework v0.9.1.singleton.1
+===========================================================
 
 
-This is the home of the PinkelStar iOS Demo app. To use this demo app you will need to register a developer
+This is a separate branch of the PinkelStar iOS Demo app. We are implementing the PineklStar server using the Singleton pattern. As you will see in the demo app, it allows us to load the PSMainViewController lazy, as it should be done. Please test at will. Once we are satisfied we will update the main branch of the project.
+
+
+To use this demo app you will need to register a developer
 account at [PinkelStar](http://www.pinkelstar.com). Once registered, you can download the demo app by cloning this repository :
 
     git clone git@github.com:PinkelStar/pinkelstar-iOS-demo.git
