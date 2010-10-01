@@ -13,6 +13,7 @@
 
 @synthesize window;
 @synthesize rootController;
+@synthesize navController;
 @synthesize psMainViewController;
 @synthesize psServerSharedInstance;
 
@@ -164,24 +165,29 @@
 	// [psMainViewController addCustomShareMessage:<a different share message>;
 	// Etc.
 	
-	// Set up the main PinkelStar Viewcontroller
+	// Set up the main PinkelStar Viewcontroller 
 	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-		DebugLog(@"Opening the iPad nib file now");
-		psMainViewController = [[PSMainViewController alloc] initWithNibName:@"PSMainViewController_iPad" bundle:nil];
-		psMainViewController.modalPresentationStyle = UIModalPresentationFormSheet;
-		psMainViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+		psMainViewController = [[PSMainViewController alloc] initWithNibName:[NSString stringWithString:@"PSMainViewController_iPad"] bundle:nil];
+		psMainViewController.psMainDelegate = self;
+		
+		[psMainViewController setEventType:PSInstallationEvent];
+		navController = [[UINavigationController alloc] initWithRootViewController:psMainViewController];
+		navController.modalPresentationStyle = UIModalPresentationFormSheet;
+		navController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+		
+		[rootController presentModalViewController:navController animated:YES];
 	} 
 	else 
 	{
-		psMainViewController = [[PSMainViewController alloc] initWithNibName:@"PSMainViewController_iPhone" bundle:nil];
+		psMainViewController = [[PSMainViewController alloc] initWithNibName:[NSString stringWithString:@"PSMainViewController_iPhone"] bundle:nil];
 		psMainViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 		
+		psMainViewController.psMainDelegate = self;
+		
+		[psMainViewController setEventType:PSInstallationEvent];
+		navController = [[UINavigationController alloc]	initWithRootViewController:psMainViewController];
+		[rootController presentModalViewController:navController animated:YES];
 	}
-	psMainViewController.delegate = self;
-	
-	[psMainViewController setEventType:PSInstallationEvent];
-	
-	[rootController presentModalViewController:psMainViewController animated:YES];
 }
 
 // Called as soon as the pinkestar process is finished

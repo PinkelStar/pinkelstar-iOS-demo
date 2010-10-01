@@ -17,12 +17,14 @@
 <UIApplicationDelegate, PSShareButtonDelegate, PSMainViewControllerDelegate> {
     UIWindow *window;
     SimpleRotationUIViewController *rootController;
+	UINavigationController *navController;
 	PSMainViewController *psMainViewController;
 	PSPinkelStarServer *psServerSharedInstance;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet SimpleRotationUIViewController *rootController;
+@property (nonatomic, retain) UINavigationController *navController;
 @property (nonatomic, retain) IBOutlet PSMainViewController *psMainViewController;
 @property (nonatomic, retain) PSPinkelStarServer *psServerSharedInstance;
 
