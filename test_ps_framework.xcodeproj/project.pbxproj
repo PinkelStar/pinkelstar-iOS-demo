@@ -19,6 +19,10 @@
 		27A6137211B4208B00FF8BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137111B4208B00FF8BBA /* Foundation.framework */; };
 		27A6137411B4209C00FF8BBA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137311B4209C00FF8BBA /* SystemConfiguration.framework */; };
 		27A6137611B420A300FF8BBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137511B420A300FF8BBA /* UIKit.framework */; };
+		27AD5B2412567CF70032F8FB /* PinkelStar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AD5B2312567CF70032F8FB /* PinkelStar_icon.png */; };
+		27AD5B2612567D010032F8FB /* PinkelStar_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AD5B2512567D010032F8FB /* PinkelStar_icon@2x.png */; };
+		27AD5B3012567D530032F8FB /* PSSettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AD5B2F12567D530032F8FB /* PSSettingsViewController_iPad.xib */; };
+		27AD5B3412567DAC0032F8FB /* PSSettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AD5B3312567DAC0032F8FB /* PSSettingsViewController_iPhone.xib */; };
 		27C1634C122D5BCC007C2E44 /* PSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C162D3122D5BCC007C2E44 /* PSMainViewController.m */; };
 		27C1634D122D5BCC007C2E44 /* PSShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C162D4122D5BCC007C2E44 /* PSShareButton.m */; };
 		27C1634E122D5BCC007C2E44 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C162D6122D5BCC007C2E44 /* Localizable.strings */; };
@@ -155,6 +159,10 @@
 		27A6137111B4208B00FF8BBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27A6137311B4209C00FF8BBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		27A6137511B420A300FF8BBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27AD5B2312567CF70032F8FB /* PinkelStar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkelStar_icon.png; sourceTree = "<group>"; };
+		27AD5B2512567D010032F8FB /* PinkelStar_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PinkelStar_icon@2x.png"; path = "PinkelStar/Resources/PSImages/sharebuttons/PinkelStar_icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		27AD5B2F12567D530032F8FB /* PSSettingsViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSSettingsViewController_iPad.xib; sourceTree = "<group>"; };
+		27AD5B3312567DAC0032F8FB /* PSSettingsViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSSettingsViewController_iPhone.xib; sourceTree = "<group>"; };
 		27C162C7122D5BCC007C2E44 /* PSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMainViewController.h; sourceTree = "<group>"; };
 		27C162C8122D5BCC007C2E44 /* PSMainViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMainViewControllerDelegate.h; sourceTree = "<group>"; };
 		27C162C9122D5BCC007C2E44 /* PSPermissionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPermissionView.h; sourceTree = "<group>"; };
@@ -382,6 +390,7 @@
 				27C162D7122D5BCC007C2E44 /* pinkelstar.plist */,
 				27C162D8122D5BCC007C2E44 /* PSImages */,
 				27C16332122D5BCC007C2E44 /* PSMainViewController_iPhone.xib */,
+				27AD5B3312567DAC0032F8FB /* PSSettingsViewController_iPhone.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -418,6 +427,8 @@
 				27C162EB122D5BCC007C2E44 /* pinkelstar@2x.png */,
 				27C162EC122D5BCC007C2E44 /* pinkelstar_icon_20_20.png */,
 				27C162ED122D5BCC007C2E44 /* pinkelstar_icon_20_20@2x.png */,
+				27AD5B2312567CF70032F8FB /* PinkelStar_icon.png */,
+				27AD5B2512567D010032F8FB /* PinkelStar_icon@2x.png */,
 				27C162EE122D5BCC007C2E44 /* placeholder_app_icon.png */,
 				27C162EF122D5BCC007C2E44 /* placeholder_button_icon.png */,
 				27C162F0122D5BCC007C2E44 /* placeholder_button_icon@2x.png */,
@@ -516,6 +527,7 @@
 				27C16342122D5BCC007C2E44 /* pref_table_row_bg_iPad.png */,
 				27C16343122D5BCC007C2E44 /* pref_table_toprow_bg_iPad.png */,
 				27C16344122D5BCC007C2E44 /* PSMainViewController_iPad.xib */,
+				27AD5B2F12567D530032F8FB /* PSSettingsViewController_iPad.xib */,
 				271BD8591256756D00DEC023 /* PSSettingsViewController_iPad.xib */,
 				27C16345122D5BCC007C2E44 /* settings_deselected_iPad.png */,
 				27C16346122D5BCC007C2E44 /* shadow-up_iPad.png */,
@@ -741,6 +753,10 @@
 				27C163BE122D5BCC007C2E44 /* sn_button_bg_selected_iPad.png in Resources */,
 				27C163BF122D5BCC007C2E44 /* topbar_iPad.png in Resources */,
 				271BD85A1256756D00DEC023 /* PSSettingsViewController_iPad.xib in Resources */,
+				27AD5B2412567CF70032F8FB /* PinkelStar_icon.png in Resources */,
+				27AD5B2612567D010032F8FB /* PinkelStar_icon@2x.png in Resources */,
+				27AD5B3012567D530032F8FB /* PSSettingsViewController_iPad.xib in Resources */,
+				27AD5B3412567DAC0032F8FB /* PSSettingsViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
