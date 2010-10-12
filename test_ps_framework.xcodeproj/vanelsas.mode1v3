@@ -278,8 +278,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
-									<integer>19</integer>
+									<integer>26</integer>
+									<integer>24</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -320,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PSShareButton.m</string>
+								<string>pinkelstar.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +328,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PSShareButton.m</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>278E4C771263809900BACC31</string>
+										<string>pinkelstar.plist</string>
 										<key>history</key>
 										<array>
 											<string>279A992F11B53924005674C4</string>
@@ -357,16 +353,12 @@
 											<string>27AD5B4512567E420032F8FB</string>
 											<string>277BBF5B126378E600718667</string>
 											<string>277BBF681263796700718667</string>
-											<string>278E4C6E1263809900BACC31</string>
 											<string>278E4C6F1263809900BACC31</string>
 											<string>278E4C701263809900BACC31</string>
 											<string>278E4C711263809900BACC31</string>
 											<string>278E4C721263809900BACC31</string>
 											<string>278E4C731263809900BACC31</string>
 											<string>278E4C741263809900BACC31</string>
-											<string>278E4C751263809900BACC31</string>
-											<string>278E4C761263809900BACC31</string>
-											<string>2728BF29123790D100144148</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -378,14 +370,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {963, 563}}</string>
+								<string>{{0, 0}, {963, 547}}</string>
 								<key>RubberWindowFrame</key>
 								<string>23 213 1380 964 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>563pt</string>
+							<string>547pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -398,14 +390,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 568}, {963, 355}}</string>
+								<string>{{0, 552}, {963, 371}}</string>
 								<key>RubberWindowFrame</key>
 								<string>23 213 1380 964 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>355pt</string>
+							<string>371pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -424,9 +416,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>278E4C5C12637E6E00BACC31</string>
+				<string>272D5FBB126461BF00203F25</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>278E4C5D12637E6E00BACC31</string>
+				<string>272D5FBC126461BF00203F25</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -562,7 +554,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>271B84E611AD43C900AA954B</string>
 		<string>/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/test_ps_framework.xcodeproj</string>
@@ -645,7 +636,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>271B84E611AD43C900AA954B</string>
-				<string>278E4C5E12637E6E00BACC31</string>
+				<string>272D5FBD126461BF00203F25</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -765,13 +756,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>278E4C5F12637E6E00BACC31</string>
+				<string>272D5FBE126461BF00203F25</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>278E4C6012637E6E00BACC31</string>
-				<string>278E4C6112637E6E00BACC31</string>
-				<string>278E4C6212637E6E00BACC31</string>
-				<string>278E4C6312637E6E00BACC31</string>
-				<string>278E4C6412637E6E00BACC31</string>
+				<string>272D5FBF126461BF00203F25</string>
+				<string>272D5FC0126461BF00203F25</string>
+				<string>272D5FC1126461BF00203F25</string>
+				<string>272D5FC2126461BF00203F25</string>
+				<string>272D5FC3126461BF00203F25</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -925,7 +916,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>278E4C6512637E6E00BACC31</string>
+				<string>272D5FB2126461B900203F25</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
