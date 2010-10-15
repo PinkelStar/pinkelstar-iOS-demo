@@ -29,7 +29,7 @@
 		);
 		name = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar/Resources/pinkelstar.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	271B845511AD41CA00AA954B /* test_ps_framework */ = {
 		isa = PBXExecutable;
@@ -133,17 +133,6 @@
 		isa = PBXBookmark;
 		fRef = 277BBF3C1263789100718667 /* email@2x.png */;
 	};
-	274AE61B1268DC350031C0AD /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 27C162D7122D5BCC007C2E44 /* pinkelstar.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar/Resources/pinkelstar.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
 	27648122124B818B00909CE6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 27C162CC122D5BCC007C2E44 /* PSPinkelStarServer.h */;
@@ -234,6 +223,18 @@
 	277BBF681263796700718667 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 277BBF3F126378A100718667 /* email_iPad.png */;
+	};
+	2780E44D1268E00E00BBFF73 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 27C162D7122D5BCC007C2E44 /* pinkelstar.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			applicationSecret,
+		);
+		name = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar/Resources/pinkelstar.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	278DD5D2124A0A0500048CDD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -524,8 +525,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308862417;
-			PBXWorkspaceStateSaveDate = 308862417;
+			PBXPerProjectTemplateStateSaveDate = 308862897;
+			PBXWorkspaceStateSaveDate = 308862897;
 		};
 		perUserProjectItems = {
 			270033F41268DE3700AF0C41 /* PlistBookmark */ = 270033F41268DE3700AF0C41 /* PlistBookmark */;
@@ -533,13 +534,13 @@
 			271BD8701256762200DEC023 /* PBXTextBookmark */ = 271BD8701256762200DEC023 /* PBXTextBookmark */;
 			273A9EBB11E36C4F00E03C8E /* PBXTextBookmark */ = 273A9EBB11E36C4F00E03C8E /* PBXTextBookmark */;
 			274AE6191268DC350031C0AD /* PBXBookmark */ = 274AE6191268DC350031C0AD /* PBXBookmark */;
-			274AE61B1268DC350031C0AD /* PlistBookmark */ = 274AE61B1268DC350031C0AD /* PlistBookmark */;
 			27648122124B818B00909CE6 /* PBXTextBookmark */ = 27648122124B818B00909CE6 /* PBXTextBookmark */;
 			2766900D11F1A84E000CAE1A /* PBXTextBookmark */ = 2766900D11F1A84E000CAE1A /* PBXTextBookmark */;
 			276C0EB6123791BE00939FD8 /* PBXTextBookmark */ = 276C0EB6123791BE00939FD8 /* PBXTextBookmark */;
 			277ADF1B122D3DC800455107 /* PBXTextBookmark */ = 277ADF1B122D3DC800455107 /* PBXTextBookmark */;
 			277BBF5B126378E600718667 /* PBXTextBookmark */ = 277BBF5B126378E600718667 /* PBXTextBookmark */;
 			277BBF681263796700718667 /* PBXBookmark */ = 277BBF681263796700718667 /* PBXBookmark */;
+			2780E44D1268E00E00BBFF73 /* PlistBookmark */ = 2780E44D1268E00E00BBFF73 /* PlistBookmark */;
 			278DD5D2124A0A0500048CDD /* PBXTextBookmark */ = 278DD5D2124A0A0500048CDD /* PBXTextBookmark */;
 			278E4C6F1263809900BACC31 /* PBXBookmark */ = 278E4C6F1263809900BACC31 /* PBXBookmark */;
 			278E4C701263809900BACC31 /* PBXBookmark */ = 278E4C701263809900BACC31 /* PBXBookmark */;

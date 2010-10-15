@@ -97,7 +97,8 @@ static CGFloat permissionViewOffsetY = 26.0;
 + (NSString *) version
 {
 	// return @"0.9.1";
-	return @"v.0.9.1.singleton.1";
+	//return @"v.0.9.1.singleton.1";
+	return @"v.0.9.2";
 	
 }
 
