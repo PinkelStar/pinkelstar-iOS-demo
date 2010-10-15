@@ -13,6 +13,9 @@
 		271BD85A1256756D00DEC023 /* PSSettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271BD8591256756D00DEC023 /* PSSettingsViewController_iPad.xib */; };
 		2721543811BF57DC00575238 /* custom_image_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 2721543611BF57DC00575238 /* custom_image_highlighted.png */; };
 		2721543911BF57DC00575238 /* custom_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2721543711BF57DC00575238 /* custom_image.png */; };
+		274AE6111268DB630031C0AD /* email_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 274AE60F1268DB630031C0AD /* email_small.png */; };
+		274AE6121268DB630031C0AD /* email_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274AE6101268DB630031C0AD /* email_small@2x.png */; };
+		274AE6141268DB750031C0AD /* email_small_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 274AE6131268DB750031C0AD /* email_small_iPad.png */; };
 		27648116124B817400909CE6 /* PinkelStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27648115124B817400909CE6 /* PinkelStar.framework */; };
 		277BBF3A1263787D00718667 /* PSMailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277BBF391263787D00718667 /* PSMailViewController.m */; };
 		277BBF3D1263789100718667 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 277BBF3B1263789100718667 /* email.png */; };
@@ -158,6 +161,9 @@
 		271BD8591256756D00DEC023 /* PSSettingsViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSSettingsViewController_iPad.xib; sourceTree = "<group>"; };
 		2721543611BF57DC00575238 /* custom_image_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_image_highlighted.png; sourceTree = "<group>"; };
 		2721543711BF57DC00575238 /* custom_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_image.png; sourceTree = "<group>"; };
+		274AE60F1268DB630031C0AD /* email_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_small.png; sourceTree = "<group>"; };
+		274AE6101268DB630031C0AD /* email_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_small@2x.png"; sourceTree = "<group>"; };
+		274AE6131268DB750031C0AD /* email_small_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_small_iPad.png; sourceTree = "<group>"; };
 		27648115124B817400909CE6 /* PinkelStar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PinkelStar.framework; path = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar.framework"; sourceTree = "<absolute>"; };
 		277BBF371263786D00718667 /* PSMailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMailViewController.h; sourceTree = "<group>"; };
 		277BBF381263786D00718667 /* PSMailViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMailViewControllerDelegate.h; sourceTree = "<group>"; };
@@ -441,6 +447,8 @@
 				27C162E9122D5BCC007C2E44 /* done_selected@2x.png */,
 				277BBF3B1263789100718667 /* email.png */,
 				277BBF3C1263789100718667 /* email@2x.png */,
+				274AE60F1268DB630031C0AD /* email_small.png */,
+				274AE6101268DB630031C0AD /* email_small@2x.png */,
 				27C162EA122D5BCC007C2E44 /* pinkelstar.png */,
 				27C162EB122D5BCC007C2E44 /* pinkelstar@2x.png */,
 				27C162EC122D5BCC007C2E44 /* pinkelstar_icon_20_20.png */,
@@ -538,6 +546,7 @@
 				27C1633B122D5BCC007C2E44 /* done_deselected_iPad.png */,
 				27C1633C122D5BCC007C2E44 /* done_selected_iPad.png */,
 				277BBF3F126378A100718667 /* email_iPad.png */,
+				274AE6131268DB750031C0AD /* email_small_iPad.png */,
 				27C1633D122D5BCC007C2E44 /* MainWindow-iPad.xib */,
 				27C1633E122D5BCC007C2E44 /* pinkelstar_tr_corner_iPad.png */,
 				27C1633F122D5BCC007C2E44 /* placeholder_app_icon_iPad.png */,
@@ -780,6 +789,9 @@
 				277BBF3D1263789100718667 /* email.png in Resources */,
 				277BBF3E1263789100718667 /* email@2x.png in Resources */,
 				277BBF40126378A100718667 /* email_iPad.png in Resources */,
+				274AE6111268DB630031C0AD /* email_small.png in Resources */,
+				274AE6121268DB630031C0AD /* email_small@2x.png in Resources */,
+				274AE6141268DB750031C0AD /* email_small_iPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
