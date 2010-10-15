@@ -1,9 +1,7 @@
 PinkelStar iPhone/iPhone4/iPad Framework v0.9.1.singleton.1
 ===========================================================
 
-
 This is the master branch of the PinkelStar iOS Demo app. 
-
 
 To use this demo app you will need to register a developer
 account at [PinkelStar](http://www.pinkelstar.com). Once registered, you can download the demo app by cloning this repository :
@@ -12,8 +10,8 @@ account at [PinkelStar](http://www.pinkelstar.com). Once registered, you can dow
 
 Make sure you switch to the correct branch using:
 
-	git checkout -b /remotes/origin/SingletonServer2
-
+	git checkout -b /remotes/origin/EmailShare
+	
 In the demo app folder you will find a complete and simple test application that uses the PinkelStar framework to build and display different types of like and share buttons. When such a button is pressed, the user can share content with friends on Facebook, Twitter and LinkedIn.
 
 PinkelStar uses the latest iPhone SDK (iOS4) and Xcode development environment (Xcode 3.2.x). Please upgrade your environment if needed. PinkelStar is fully compatible with iPhone, iPhone4 and iPad and provides native interfaces for each of these platforms.
@@ -29,7 +27,7 @@ Requirements
 ------------
 * Xcode (V2.x)
 * The latest iOS SDK (v4.x)
-* SystemConfiguration.framework, Foundation.framework, QuartzCore.framework, CoreGraphics.framework, UIKit.framework
+* SystemConfiguration.framework, Foundation.framework, QuartzCore.framework, CoreGraphics.framework, UIKit.framework, MessageUI.framework
 * PinkelStar.framework
 * The PinkelStarUI and resources folder
 
