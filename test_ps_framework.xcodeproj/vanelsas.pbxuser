@@ -68,9 +68,9 @@
 	};
 	271BD8551256754900DEC023 /* PSSettingsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {902, 754}}";
+			sepNavIntBoundsRect = "{{0, 0}, {902, 793}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1650}";
+			sepNavVisRange = "{1314, 860}";
 		};
 	};
 	271BD8571256755500DEC023 /* PSSettingsViewController.m */ = {
@@ -392,6 +392,28 @@
 			sepNavVisRange = "{0, 3167}";
 		};
 	};
+	27E509111268CB6100980CBE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 271BD8551256754900DEC023 /* PSSettingsViewController.h */;
+		name = "PSSettingsViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 1314;
+	};
+	27E509121268CB6100980CBE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 277BBF3B1263789100718667 /* email.png */;
+	};
+	27E509131268CB6100980CBE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 277BBF3C1263789100718667 /* email@2x.png */;
+	};
+	27E509141268CB6100980CBE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 277BBF3C1263789100718667 /* email@2x.png */;
+	};
 	27EA45ED122A5EC000894770 /* SimpleRotationUIViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {962, 399}}";
@@ -484,8 +506,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308568506;
-			PBXWorkspaceStateSaveDate = 308568506;
+			PBXPerProjectTemplateStateSaveDate = 308857572;
+			PBXWorkspaceStateSaveDate = 308857572;
 		};
 		perUserProjectItems = {
 			271BD86F1256762200DEC023 /* PBXTextBookmark */ = 271BD86F1256762200DEC023 /* PBXTextBookmark */;
@@ -516,6 +538,10 @@
 			27AD5B4412567E420032F8FB /* PBXBookmark */ = 27AD5B4412567E420032F8FB /* PBXBookmark */;
 			27AD5B4512567E420032F8FB /* PBXBookmark */ = 27AD5B4512567E420032F8FB /* PBXBookmark */;
 			27BB9822124A09CB00A81372 /* PBXTextBookmark */ = 27BB9822124A09CB00A81372 /* PBXTextBookmark */;
+			27E509111268CB6100980CBE /* PBXTextBookmark */ = 27E509111268CB6100980CBE /* PBXTextBookmark */;
+			27E509121268CB6100980CBE /* PBXBookmark */ = 27E509121268CB6100980CBE /* PBXBookmark */;
+			27E509131268CB6100980CBE /* PBXBookmark */ = 27E509131268CB6100980CBE /* PBXBookmark */;
+			27E509141268CB6100980CBE /* PBXBookmark */ = 27E509141268CB6100980CBE /* PBXBookmark */;
 		};
 		sourceControlManager = 271B846111AD41CF00AA954B /* Source Control */;
 		userBuildSettings = {
