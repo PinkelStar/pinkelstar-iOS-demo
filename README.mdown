@@ -1,7 +1,7 @@
-PinkelStar iPhone/iPhone4/iPad Framework v0.9.2
-===========================================================
+PinkelStar iPad only UI v0.9.2.iPad, PinkelStar Framework v0.9.2
+================================================================
 
-This is the master branch of the PinkelStar iOS Demo app. 
+This is a separate branch of the PinkelStar iOS Demo app. In this branch you will find a demo project with a native ipad interface. Please note this demo will only work on iPad.
 
 To use this demo app you will need to register a developer
 account at [PinkelStar](http://www.pinkelstar.com). Once registered, you can download the demo app by cloning this repository :
@@ -10,17 +10,19 @@ account at [PinkelStar](http://www.pinkelstar.com). Once registered, you can dow
 
 Make sure you switch to the correct branch using:
 
-	git checkout -b /remotes/origin/EmailShare
+	git checkout -b /remotes/origin/iPadOnly
 	
 In the demo app folder you will find a complete and simple test application that uses the PinkelStar framework to build and display different types of like and share buttons. When such a button is pressed, the user can share content with friends on Facebook, Twitter, LinkedIn, and e-mail.
 
-PinkelStar uses the latest iPhone SDK (iOS4) and Xcode development environment (Xcode 3.2.x). Please upgrade your environment if needed. PinkelStar is fully compatible with iPhone, iPhone4 and iPad and provides native interfaces for each of these platforms.
+PinkelStar uses the latest iPhone SDK (iOS4) and Xcode development environment (Xcode 3.2.x). Please upgrade your environment if needed. PinkelStar is fully compatible with iPhone, iPhone4 and iPad and provides native interfaces for each of these platforms. The code in this branch is ONLY compatible with iPad.
+
+Note: even though the demo is ipad only, we have set the Base SDK to 4.1, and the target device family to iPad. If you want to compile with the 3.2 SDK only, you will need to remove a few (non-used) methods that check for iPhone 4 retina display in the PinkelStar folder (the compiler will warn you).
 
 
 Instructions to run the demo-app
 --------------------------------
 
-The demo app works (almost) out of the box. Open the 'test_ps_framework.xcodeproj' in Xcode, compile and run.
+The demo app works (almost) out of the box. Open the 'pinkelstar-iOS-iPad-only-demo.xcodeproj' in Xcode, compile and run.
 You will need to add your own Application Key and Secret to the pinkelstar.plist file first (see below for instructions), otherwise the demo will halt with a warning immediately after launch.
 
 Requirements
@@ -43,7 +45,7 @@ Steps for setting up the Demo app :
 	- NOTE: THE DEMO WILL NOT RUN IF YOU DO NOT ENTER YOUR OWN APPLICATION KEY AND SECRET
 
 
-- Please note that you can customize nearly everything with PinkelStar. You do not need to use the default provided UI elements or buttons. You can set the type of message that the user can share, you can add a URL to content that the user wants to share etc. etc. See the `PSMainViewController.h` and `PSShareButton.h` files for all options.
+- Please note that you can customize nearly everything with PinkelStar. You do not need to use the default provided UI elements or buttons. You can set the type of message that the user can share, you can add a URL to content that the user wants to share etc. etc. 
 
 Compile and run!
 

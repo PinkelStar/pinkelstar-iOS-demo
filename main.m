@@ -1,9 +1,9 @@
 //
 //  main.m
-//  test_ps_framework
+//  pinkelstar-iOS-iPad-only-demo
 //
-//  Created by Alexander van Elsas on 5/26/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Created by Alexander van Elsas on 10/15/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

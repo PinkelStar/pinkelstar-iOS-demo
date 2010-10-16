@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'pinkelstar-iOS-iPad-only-demo' target in the 'pinkelstar-iOS-iPad-only-demo' project
+//
+
+#import <PinkelStar/PSCommon.h>
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

@@ -1,5 +1,9 @@
 Changelog iOS PinkelStar framework and UI
-======================================
+=========================================
+
+Saturday October 16th 2010
+--------------------------
+- A new branch for the UI project that shows a native iPad only interface
 
 Monday October 11th 2010
 ------------------------
