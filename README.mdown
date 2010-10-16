@@ -1,5 +1,5 @@
 PinkelStar iPhone/iPhone4/iPad Framework v0.9.2
-===========================================================
+================================================
 
 This is the master branch of the PinkelStar iOS Demo app. 
 
@@ -7,15 +7,14 @@ To use this demo app you will need to register a developer
 account at [PinkelStar](http://www.pinkelstar.com). Once registered, you can download the demo app by cloning this repository :
 
     git clone git@github.com:PinkelStar/pinkelstar-iOS-demo.git
-
-Make sure you switch to the correct branch using:
-
-	git checkout -b /remotes/origin/EmailShare
 	
 In the demo app folder you will find a complete and simple test application that uses the PinkelStar framework to build and display different types of like and share buttons. When such a button is pressed, the user can share content with friends on Facebook, Twitter, LinkedIn, and e-mail.
 
 PinkelStar uses the latest iPhone SDK (iOS4) and Xcode development environment (Xcode 3.2.x). Please upgrade your environment if needed. PinkelStar is fully compatible with iPhone, iPhone4 and iPad and provides native interfaces for each of these platforms.
 
+PLEASE NOTE: We've just uploaded an iPad only interface that you can try. Clone te repo fist, and then switch to the iPadOnly branch using:
+
+	git checkout -b /remotes/origin/ipadOnly
 
 Instructions to run the demo-app
 --------------------------------
