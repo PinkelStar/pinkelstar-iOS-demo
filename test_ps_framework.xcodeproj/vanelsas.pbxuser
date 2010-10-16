@@ -20,17 +20,6 @@
 			271B845511AD41CA00AA954B /* test_ps_framework */,
 		);
 	};
-	270033F41268DE3700AF0C41 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 27C162D7122D5BCC007C2E44 /* pinkelstar.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar/Resources/pinkelstar.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
 	271B845511AD41CA00AA954B /* test_ps_framework */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -128,6 +117,18 @@
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 48;
+	};
+	274508171268E58F00859068 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 27C162D7122D5BCC007C2E44 /* pinkelstar.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			applicationSecret,
+		);
+		name = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar/Resources/pinkelstar.plist";
+		rLen = 0;
+		rLoc = 0;
 	};
 	274AE6191268DC350031C0AD /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -234,7 +235,7 @@
 		);
 		name = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar/Resources/pinkelstar.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	278DD5D2124A0A0500048CDD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -525,14 +526,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308862897;
-			PBXWorkspaceStateSaveDate = 308862897;
+			PBXPerProjectTemplateStateSaveDate = 308864373;
+			PBXWorkspaceStateSaveDate = 308864373;
 		};
 		perUserProjectItems = {
-			270033F41268DE3700AF0C41 /* PlistBookmark */ = 270033F41268DE3700AF0C41 /* PlistBookmark */;
 			271BD86F1256762200DEC023 /* PBXTextBookmark */ = 271BD86F1256762200DEC023 /* PBXTextBookmark */;
 			271BD8701256762200DEC023 /* PBXTextBookmark */ = 271BD8701256762200DEC023 /* PBXTextBookmark */;
 			273A9EBB11E36C4F00E03C8E /* PBXTextBookmark */ = 273A9EBB11E36C4F00E03C8E /* PBXTextBookmark */;
+			274508171268E58F00859068 /* PlistBookmark */ = 274508171268E58F00859068 /* PlistBookmark */;
 			274AE6191268DC350031C0AD /* PBXBookmark */ = 274AE6191268DC350031C0AD /* PBXBookmark */;
 			27648122124B818B00909CE6 /* PBXTextBookmark */ = 27648122124B818B00909CE6 /* PBXTextBookmark */;
 			2766900D11F1A84E000CAE1A /* PBXTextBookmark */ = 2766900D11F1A84E000CAE1A /* PBXTextBookmark */;
