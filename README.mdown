@@ -10,11 +10,7 @@ account at [PinkelStar](http://www.pinkelstar.com). Once registered, you can dow
 	
 In the demo app folder you will find a complete and simple test application that uses the PinkelStar framework to build and display different types of like and share buttons. When such a button is pressed, the user can share content with friends on Facebook, Twitter, LinkedIn, and e-mail.
 
-PinkelStar uses the latest iPhone SDK (iOS4) and Xcode development environment (Xcode 3.2.x). Please upgrade your environment if needed. PinkelStar is fully compatible with iPhone, iPhone4 and iPad and provides native interfaces for each of these platforms.
-
-PLEASE NOTE: We've just uploaded an iPad only interface that you can try. Clone te repo fist, and then switch to the iPadOnly branch using:
-
-	git checkout -b /remotes/origin/ipadOnly
+PinkelStar uses the latest iPhone SDK (iOS4.2) and Xcode development environment (Xcode 3.2.5). Please upgrade your environment if needed. PinkelStar is fully compatible with iPhone, iPhone4 and iPad and provides native interfaces for each of these platforms.
 
 Instructions to run the demo-app
 --------------------------------
@@ -25,11 +21,11 @@ You will need to add your own Application Key and Secret to the pinkelstar.plist
 Requirements
 ------------
 * Xcode (V2.x)
-* The latest iOS SDK (v4.x)
+* The latest iOS SDK (v4.2)
 * SystemConfiguration.framework, Foundation.framework, QuartzCore.framework, CoreGraphics.framework, UIKit.framework, MessageUI.framework
 * PinkelStar.framework
 * The PinkelStarUI and resources folder
-* Please set your Base SDK in your XCode project settings to the highest iOS SDK (currently 4.x), and set your deployment target to the minimum SDK level that you need (e.g. 3.0, 3.1, 3.2 etc).
+* Please set your Base SDK in your XCode project settings to the highest iOS SDK (currently 4.2), and set your deployment target to the minimum SDK level that you need (e.g. 3.0, 3.1, 3.2 etc). Set your Targeted device family to iPhone, Ipad or iPhone/iPad, depending on your needs.
 
 Steps for setting up the Demo app :
 -----------------------------------

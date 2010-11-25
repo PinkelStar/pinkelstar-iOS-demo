@@ -171,6 +171,8 @@
 		psMainViewController.psMainDelegate = self;
 		
 		[psMainViewController setEventType:PSInstallationEvent];
+		[psMainViewController setCustomImageURL:[NSURL URLWithString:@"http://www.factor-software.com/images/boom_icon_huge.png"]];
+
 		navController = [[UINavigationController alloc] initWithRootViewController:psMainViewController];
 		navController.modalPresentationStyle = UIModalPresentationFormSheet;
 		navController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
@@ -183,7 +185,8 @@
 		psMainViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 		
 		psMainViewController.psMainDelegate = self;
-		
+		[psMainViewController setCustomImageURL:[NSURL URLWithString:@"http://www.factor-software.com/images/boom_icon_huge.png"]];
+
 		[psMainViewController setEventType:PSInstallationEvent];
 		navController = [[UINavigationController alloc]	initWithRootViewController:psMainViewController];
 		[rootController presentModalViewController:navController animated:YES];
