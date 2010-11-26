@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* pinkelstar_iOS_iPad_only_demoAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {720, 478}}";
-			sepNavSelRange = "{280, 0}";
-			sepNavVisRange = "{0, 831}";
+			sepNavIntBoundsRect = "{{0, 0}, {811, 458}}";
+			sepNavSelRange = "{513, 0}";
+			sepNavVisRange = "{0, 793}";
 		};
 	};
 	1D3623250D0F684500981E51 /* pinkelstar_iOS_iPad_only_demoAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 2288}}";
-			sepNavSelRange = "{983, 0}";
-			sepNavVisRange = "{2103, 2046}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 2197}}";
+			sepNavSelRange = "{694, 0}";
+			sepNavVisRange = "{4376, 1529}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* pinkelstar-iOS-iPad-only-demo */ = {
@@ -64,16 +64,35 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	277E8D9B1269DA9D006DA754 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 27DD5F951268E8C600D104CD /* pinkelstar.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar/Resources/pinkelstar.plist";
+	274ECC8F129FCF8500E6BBE6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* pinkelstar_iOS_iPad_only_demoViewController.m */;
+		name = "pinkelstar_iOS_iPad_only_demoViewController.m: 115";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 5079;
+		rType = 0;
+		vrLen = 1741;
+		vrLoc = 3868;
+	};
+	274ECC90129FCF8500E6BBE6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27DD5F361268E69600D104CD /* PSShareViewController.h */;
+		name = "PSShareViewController.h: 12";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 0;
+	};
+	274ECC9B129FCF8500E6BBE6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27DD5F371268E69600D104CD /* PSShareViewController.m */;
+		name = "PSShareViewController.m: 95";
+		rLen = 0;
+		rLoc = 3738;
+		rType = 0;
+		vrLen = 1070;
+		vrLoc = 4141;
 	};
 	277E8D9C1269DA9D006DA754 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -85,55 +104,91 @@
 		vrLen = 1700;
 		vrLoc = 2358;
 	};
-	277E8D9D1269DA9D006DA754 /* PBXTextBookmark */ = {
+	279D24FD129FC5B800EB85A9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* pinkelstar_iOS_iPad_only_demoViewController.m */;
-		name = "pinkelstar_iOS_iPad_only_demoViewController.m: 19";
-		rLen = 61;
-		rLoc = 517;
+		fRef = 27DD5F861268E8C600D104CD /* PSPinkelStarServer.h */;
+		name = "PSPinkelStarServer.h: 122";
+		rLen = 24;
+		rLoc = 4498;
 		rType = 0;
-		vrLen = 2009;
-		vrLoc = 292;
+		vrLen = 1659;
+		vrLoc = 3282;
 	};
-	277E8D9E1269DA9D006DA754 /* PBXTextBookmark */ = {
+	279D2578129FCDFF00EB85A9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* pinkelstar_iOS_iPad_only_demoViewController.h */;
-		name = "pinkelstar_iOS_iPad_only_demoViewController.h: 11";
+		fRef = 27DD5F941268E8C600D104CD /* Localizable.strings */;
+		name = "Localizable.strings: 1";
 		rLen = 0;
-		rLoc = 261;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 717;
+		vrLen = 2609;
 		vrLoc = 0;
 	};
-	277E8D9F1269DA9D006DA754 /* PBXTextBookmark */ = {
+	279D2579129FCDFF00EB85A9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 27DD5F951268E8C600D104CD /* pinkelstar.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			applicationSecret,
+		);
+		name = "/Users/vanelsas/Xcode projects/pinkelstar-iOS-demo-app/PinkelStar/Resources/pinkelstar.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	279D257A129FCDFF00EB85A9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27DD60991268E8E900D104CD /* share_button_bg.png */;
+	};
+	279D257B129FCDFF00EB85A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27DD5F871268E8C600D104CD /* PSPinkelStarServerDelegate.h */;
+		name = "PSPinkelStarServerDelegate.h: 52";
+		rLen = 46;
+		rLoc = 2392;
+		rType = 0;
+		vrLen = 1681;
+		vrLoc = 1508;
+	};
+	279D257D129FCDFF00EB85A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* pinkelstar_iOS_iPad_only_demoAppDelegate.h */;
+		name = "pinkelstar_iOS_iPad_only_demoAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 513;
+		rType = 0;
+		vrLen = 793;
+		vrLoc = 0;
+	};
+	279D257F129FCDFF00EB85A9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* pinkelstar_iOS_iPad_only_demoViewController.h */;
-		name = "pinkelstar_iOS_iPad_only_demoViewController.h: 24";
+		name = "pinkelstar_iOS_iPad_only_demoViewController.h: 13";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 446;
 		rType = 0;
 		vrLen = 781;
 		vrLoc = 0;
 	};
-	27D14BFD1269D58C00329981 /* PBXTextBookmark */ = {
+	279D2592129FCE8300EB85A9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 27DD5F371268E69600D104CD /* PSShareViewController.m */;
-		name = "PSShareViewController.m: 75";
+		name = "PSShareViewController.m: 95";
 		rLen = 0;
-		rLoc = 2858;
+		rLoc = 3738;
 		rType = 0;
-		vrLen = 1708;
-		vrLoc = 0;
+		vrLen = 1478;
+		vrLoc = 2706;
 	};
-	27D14BFF1269D58C00329981 /* PBXTextBookmark */ = {
+	279D2596129FCF0000EB85A9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* pinkelstar_iOS_iPad_only_demoAppDelegate.m */;
-		name = "pinkelstar_iOS_iPad_only_demoAppDelegate.m: 31";
+		name = "pinkelstar_iOS_iPad_only_demoAppDelegate.m: 24";
 		rLen = 0;
-		rLoc = 983;
+		rLoc = 694;
 		rType = 0;
-		vrLen = 2046;
-		vrLoc = 2103;
+		vrLen = 1529;
+		vrLoc = 4376;
 	};
 	27D14C001269D58C00329981 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -167,11 +222,32 @@
 		isa = PBXBookmark;
 		fRef = 27DD5FA91268E8C600D104CD /* email@2x.png */;
 	};
+	27DD5F361268E69600D104CD /* PSShareViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {811, 546}}";
+			sepNavSelRange = "{279, 0}";
+			sepNavVisRange = "{0, 1159}";
+		};
+	};
 	27DD5F371268E69600D104CD /* PSShareViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1671, 1976}}";
-			sepNavSelRange = "{2858, 0}";
-			sepNavVisRange = "{0, 1708}";
+			sepNavIntBoundsRect = "{{0, 0}, {1671, 2704}}";
+			sepNavSelRange = "{3738, 0}";
+			sepNavVisRange = "{4141, 1070}";
+		};
+	};
+	27DD5F861268E8C600D104CD /* PSPinkelStarServer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 1703}}";
+			sepNavSelRange = "{4498, 24}";
+			sepNavVisRange = "{3282, 1659}";
+		};
+	};
+	27DD5F871268E8C600D104CD /* PSPinkelStarServerDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {811, 923}}";
+			sepNavSelRange = "{2392, 46}";
+			sepNavVisRange = "{1508, 1681}";
 		};
 	};
 	27DD5F8F1268E8C600D104CD /* PSMailViewController.m */ = {
@@ -195,24 +271,31 @@
 			sepNavVisRange = "{18698, 819}";
 		};
 	};
+	27DD5F941268E8C600D104CD /* Localizable.strings */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2567, 663}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2609}";
+		};
+	};
 	28D7ACF60DDB3853001CB0EB /* pinkelstar_iOS_iPad_only_demoViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {789, 631}}";
-			sepNavSelRange = "{731, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {811, 481}}";
+			sepNavSelRange = "{446, 0}";
 			sepNavVisRange = "{0, 781}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* pinkelstar_iOS_iPad_only_demoViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 2522}}";
-			sepNavSelRange = "{517, 61}";
-			sepNavVisRange = "{292, 2009}";
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 2145}}";
+			sepNavSelRange = "{5079, 0}";
+			sepNavVisRange = "{3868, 1741}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = 274507F51268E3E700859068 /* pinkelstar-iOS-iPad-only-demo */;
-		activeSDKPreference = iphonesimulator4.1;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* pinkelstar-iOS-iPad-only-demo */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* pinkelstar-iOS-iPad-only-demo */,
@@ -227,7 +310,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					470,
+					633,
 					20,
 					48,
 					43,
@@ -249,7 +332,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					10,
+					430,
 					60,
 					20,
 					48,
@@ -266,17 +349,23 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308926532;
-			PBXWorkspaceStateSaveDate = 308926532;
+			PBXPerProjectTemplateStateSaveDate = 312463209;
+			PBXWorkspaceStateSaveDate = 312463209;
 		};
 		perUserProjectItems = {
-			277E8D9B1269DA9D006DA754 /* PlistBookmark */ = 277E8D9B1269DA9D006DA754 /* PlistBookmark */;
+			274ECC8F129FCF8500E6BBE6 /* PBXTextBookmark */ = 274ECC8F129FCF8500E6BBE6 /* PBXTextBookmark */;
+			274ECC90129FCF8500E6BBE6 /* PBXTextBookmark */ = 274ECC90129FCF8500E6BBE6 /* PBXTextBookmark */;
+			274ECC9B129FCF8500E6BBE6 /* PBXTextBookmark */ = 274ECC9B129FCF8500E6BBE6 /* PBXTextBookmark */;
 			277E8D9C1269DA9D006DA754 /* PBXTextBookmark */ = 277E8D9C1269DA9D006DA754 /* PBXTextBookmark */;
-			277E8D9D1269DA9D006DA754 /* PBXTextBookmark */ = 277E8D9D1269DA9D006DA754 /* PBXTextBookmark */;
-			277E8D9E1269DA9D006DA754 /* PBXTextBookmark */ = 277E8D9E1269DA9D006DA754 /* PBXTextBookmark */;
-			277E8D9F1269DA9D006DA754 /* PBXTextBookmark */ = 277E8D9F1269DA9D006DA754 /* PBXTextBookmark */;
-			27D14BFD1269D58C00329981 /* PBXTextBookmark */ = 27D14BFD1269D58C00329981 /* PBXTextBookmark */;
-			27D14BFF1269D58C00329981 /* PBXTextBookmark */ = 27D14BFF1269D58C00329981 /* PBXTextBookmark */;
+			279D24FD129FC5B800EB85A9 /* PBXTextBookmark */ = 279D24FD129FC5B800EB85A9 /* PBXTextBookmark */;
+			279D2578129FCDFF00EB85A9 /* PBXTextBookmark */ = 279D2578129FCDFF00EB85A9 /* PBXTextBookmark */;
+			279D2579129FCDFF00EB85A9 /* PlistBookmark */ = 279D2579129FCDFF00EB85A9 /* PlistBookmark */;
+			279D257A129FCDFF00EB85A9 /* PBXBookmark */ = 279D257A129FCDFF00EB85A9 /* PBXBookmark */;
+			279D257B129FCDFF00EB85A9 /* PBXTextBookmark */ = 279D257B129FCDFF00EB85A9 /* PBXTextBookmark */;
+			279D257D129FCDFF00EB85A9 /* PBXTextBookmark */ = 279D257D129FCDFF00EB85A9 /* PBXTextBookmark */;
+			279D257F129FCDFF00EB85A9 /* PBXTextBookmark */ = 279D257F129FCDFF00EB85A9 /* PBXTextBookmark */;
+			279D2592129FCE8300EB85A9 /* PBXTextBookmark */ = 279D2592129FCE8300EB85A9 /* PBXTextBookmark */;
+			279D2596129FCF0000EB85A9 /* PBXTextBookmark */ = 279D2596129FCF0000EB85A9 /* PBXTextBookmark */;
 			27D14C001269D58C00329981 /* PBXBookmark */ = 27D14C001269D58C00329981 /* PBXBookmark */;
 			27D14C011269D58C00329981 /* PBXBookmark */ = 27D14C011269D58C00329981 /* PBXBookmark */;
 			27D14C021269D58C00329981 /* PBXBookmark */ = 27D14C021269D58C00329981 /* PBXBookmark */;

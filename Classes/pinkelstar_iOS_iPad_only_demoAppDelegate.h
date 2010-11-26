@@ -15,7 +15,6 @@
 <UIApplicationDelegate, PSShareButtonDelegate> {
     UIWindow *window;
     pinkelstar_iOS_iPad_only_demoViewController *_viewController;
-	PSPinkelStarServer *_sharedPSServer;
 	UIPopoverController *_popController;
 }
 

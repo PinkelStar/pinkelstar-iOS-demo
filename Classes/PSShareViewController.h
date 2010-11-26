@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface PSShareViewController : UIViewController
+<PSPinkelStarServerDelegate>
 {
 	// UI stuff
 	UIButton *_shareButton;
@@ -17,6 +18,7 @@
 	UILabel *_shareTitleLabel;
 	UIImageView *_appIcon;
 	UIImageView *_bgImageView;
+	NSURL *_customImageURL;
 	
 	NSString *_networkName;
 	// Keep a pointer to the popover so that it can be dismissed
@@ -30,6 +32,7 @@
 @property(nonatomic, retain) IBOutlet UILabel *shareTitleLabel;
 @property(nonatomic, retain) IBOutlet UIImageView *appIcon;
 @property(nonatomic, retain) IBOutlet UIImageView *bgImageView;
+@property(nonatomic, retain) NSURL *customImageURL;
 
 @property(nonatomic, retain) NSString *networkName;
 @property(nonatomic, retain) UIPopoverController *popoverController;

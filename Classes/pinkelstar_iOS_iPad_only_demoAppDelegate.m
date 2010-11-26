@@ -20,10 +20,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
+	// Init PinkelStar
+	[PSPinkelStarServer sharedInstance];
 	// Create a viewController
 	_viewController = [[pinkelstar_iOS_iPad_only_demoViewController alloc] init];
-	_sharedPSServer = [PSPinkelStarServer sharedInstance];	
-	_sharedPSServer.delegate = _viewController;
 	
 	//SMALL
 	PSShareButton *shareButton1 = [[[PSShareButton alloc] init] autorelease];
@@ -174,7 +174,6 @@
 
 - (void)dealloc {
     [_viewController release];
-	[_sharedPSServer release];
     [window release];
     [super dealloc];
 }

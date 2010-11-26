@@ -24,7 +24,7 @@
 @synthesize bgImageView	= _bgImageView;
 @synthesize networkName = _networkName;
 @synthesize popoverController = _pController;
-
+@synthesize customImageURL = _customImageURL;
 // start a dialogue to obtain permission to publish to a specific social network
 - (void) getPermissionPS:(NSString *) networkName
 {
@@ -69,7 +69,11 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	[_appIcon setImage:[[PSPinkelStarServer sharedInstance] getApplicationIcon]];
+	[PSPinkelStarServer sharedInstance].delegate = self;
+	if(_customImageURL) // It will be visible in the UI as soon as the image is downloaded
+		[[PSPinkelStarServer sharedInstance] downloadCustomImage:[_customImageURL absoluteString]];
+	else 
+		[_appIcon setImage:[[PSPinkelStarServer sharedInstance] getApplicationIcon]];
 	_customLabel.text = [NSString stringWithFormat:@"I just downloaded the %@ app for the iPad", [[PSPinkelStarServer sharedInstance] getApplicationName]];
 	[_shareButton setTitle:[NSString stringWithString:@"Share now"] forState:UIControlStateNormal];
 	_shareTitleLabel.text = [NSString stringWithFormat:@"Share on %@", _networkName];
@@ -84,10 +88,12 @@
 	{
 		NSLog(@"publishing to : %@", _networkName);
 		
-		// Don't forget you can add a content url to the share if you want to
-		[[PSPinkelStarServer sharedInstance] publishPS:_userMessage.text eventMessage:_customLabel.text contentUrl:nil networkList:[NSArray arrayWithObject:_networkName]];
-		// just for testing purposes we remove the permission afterwards
-		//[[PSPinkelStarServer sharedInstance] revokePermissionPS:_networkName];
+		// Don't forget you can add a content url or an image url to the share if you want to
+		[[PSPinkelStarServer sharedInstance] publishPS:_userMessage.text 
+										  eventMessage:_customLabel.text 
+											contentUrl:nil 
+											  imageUrl:_customImageURL 
+										   networkList:[NSArray arrayWithObject:_networkName]];
 		[_shareButton setTitle:[NSString stringWithFormat:@"Shared!"] forState:UIControlStateNormal];
 		
 	}
@@ -128,11 +134,13 @@
 // Called when the dialog succeeds and is about to be dismissed.
 - (void)psPermissionViewDialogDidSucceed:(PSPermissionView *)pView
 {
-	[[PSPinkelStarServer sharedInstance] storePermissionPS:pView.networkName];	
-	[[PSPinkelStarServer sharedInstance] publishPS:_userMessage.text eventMessage:_customLabel.text contentUrl:nil networkList:[NSArray arrayWithObject:pView.networkName]];
-	
-	// just for testing purposes we remove the permission afterwards
-	//[[PSPinkelStarServer sharedInstance] revokePermissionPS:pView.networkName];
+	[[PSPinkelStarServer sharedInstance] storePermissionPS:pView.networkName];
+	[[PSPinkelStarServer sharedInstance] publishPS:_userMessage.text 
+									  eventMessage:_customLabel.text 
+										contentUrl:nil 
+										  imageUrl:_customImageURL
+ 
+									   networkList:[NSArray arrayWithObject:pView.networkName]];
 }
 
 // Called when the dialog is cancelled and is about to be dismissed.
@@ -146,6 +154,54 @@
 {
 	DebugLog(@"Entering PSMainViewController:didFailWithError");
 	
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// All delegation methods
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// PSPinkelStarServerDelegate
+
+// Server not available. Be careful when using this. It can take up to
+// 30 seconds to test if a server is availible or not.
+// It is better to wait for psInternetNotAvailable to fire. It's a better indicator
+-(void) psServerNotAvailable:(PSPinkelStarServer *) server
+{
+	NSLog(@"Server is not available");
+	// Wouldn't use this lightly. It can take a while to detect if there is no server available
+}
+
+// This fires if we do not detect Internet on the phone
+-(void) psInternetNotAvailable:(PSPinkelStarServer *) server
+{
+	NSLog(@"Internet is not available");
+}
+
+// This fires if we do detect Internet on the phone (again)
+-(void) psInternetAvailable:(PSPinkelStarServer *) server
+{
+	NSLog(@"Internet is available now");
+}
+
+-(void) psInvalidApplicationKeySecret:(PSPinkelStarServer *) server
+{
+	// If you forget to enter your application key and secret in the
+	// pinkelstar.plist file this method should fire
+}
+
+// PSPinkelStar server delegate
+-(void) psInitFinished:(PSPinkelStarServer *) server
+{
+
+}
+
+-(void) psImageDownloaded:(UIImage *) anImage
+{
+	DebugLog(@"Entering psImageDownloaded");
+	
+	_appIcon.image = anImage;
 }
 
 @end

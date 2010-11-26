@@ -6,6 +6,12 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
+
+// Please note that this demo only shows a simple native iPad UI that handles
+// sharing. It isn't produciton quality as it lacks error handling
+// Use it for inspiration only. In the main branch of the pinkelstar-iOS-demo-app
+// repository you will find a full fledged demo app 
+
 #import "pinkelstar_iOS_iPad_only_demoViewController.h"
 #import "PSShareViewController.h"
 
@@ -19,7 +25,7 @@ static float actionSheetHeight = 230.0;
 // Current version of the iPad UI code
 + (NSString *) version
 {
-	return @"v.0.9.2.iPad";
+	return @"v.0.9.3.iPad";
 	
 }
 
@@ -66,6 +72,9 @@ static float actionSheetHeight = 230.0;
 {
 	PSShareViewController *shareController = [[[PSShareViewController alloc] init] autorelease];
 	shareController.networkName = networkName;
+	// You can set the share popover to use a custom image URL instead of your app icon
+	// Try this, uncomment the following line if needed
+	shareController.customImageURL = [NSURL URLWithString:@"http://www.factor-software.com/images/boom_icon_huge.png"];
 	
 	// we make it intentionally as big as the action sheet. It prevents iOS from flipping the popover
 	// to another position
@@ -92,14 +101,18 @@ static float actionSheetHeight = 230.0;
 -(void) openSharePopover:(CGRect) rect
 {
 	_popoverRect = rect; // save this to position the popover correctly later
+	
+	// If you really want to you could show the full interface in the popover too
+	// If so, uncomment the next line and comment out anything else below that
+	//[self showPinkelStarFullInterface];
+	
+	// Comment out everything below here if you want to see the full UI in the popover
 	_actionSheet = [[UIActionSheet alloc] initWithTitle:@"Choose sharing option" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
 	// This can fail to display anything if the PinkelStar server initialization is too slow.
 	// This usually will not happen unless the user starts sharing immediately during app startup
 	// We will update as soon as the server response is in.
 	_actionSheet.actionSheetStyle = UIActionSheetStyleAutomatic;
 	[self updateActionSheet];
-	
-	//[_actionSheet showFromRect:rect inView:self.view animated:YES];
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
@@ -113,13 +126,8 @@ static float actionSheetHeight = 230.0;
 			[self shareViaEmail];
 		else
 		{
-			// Note that you can start full blown multi-network sharing here by calling:
-			// [self showPinkelStarFullInterface];
 			NSLog(@"Start the share process here");
 			[self shareViaSocialNetwork:networkName];
-			//[self showPinkelStarFullInterface];
-			
-			
 		}
 	}
 	else
@@ -149,43 +157,6 @@ static float actionSheetHeight = 230.0;
 	if(_popController)
 		[_popController release];
     [super dealloc];
-}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// All delegation methods
-//
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// PSPinkelStarServerDelegate
-
-// Server not available. Be careful when using this. It can take up to
-// 30 seconds to test if a server is availible or not.
-// It is better to wait for psInternetNotAvailable to fire. It's a better indicator
--(void) psServerNotAvailable:(PSPinkelStarServer *) server
-{
-	NSLog(@"Server is not available");
-	// Wouldn't use this lightly. It can take a while to detect if there is no server available
-}
-
-// This fires if we do not detect Internet on the phone
--(void) psInternetNotAvailable:(PSPinkelStarServer *) server
-{
-	NSLog(@"Internet is not available");
-}
-
-// This fires if we do detect Internet on the phone (again)
--(void) psInternetAvailable:(PSPinkelStarServer *) server
-{
-	NSLog(@"Internet is available now");
-}
-
--(void) psInvalidApplicationKeySecret:(PSPinkelStarServer *) server
-{
-	// If you forget to enter your application key and secret in the
-	// pinkelstar.plist file this method will
-	// fire
-	NSLog(@"Please update your pinkelstar.plist file with your app key and secret");
 }
 
 // PSPinkelStar server delegate
