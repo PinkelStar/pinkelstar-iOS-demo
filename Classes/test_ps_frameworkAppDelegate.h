@@ -14,7 +14,7 @@
 @class SimpleRotationUIViewController;
 
 @interface test_ps_frameworkAppDelegate : NSObject 
-<UIApplicationDelegate, PSShareButtonDelegate, PSMainViewControllerDelegate> {
+<UIApplicationDelegate, PSShareButtonDelegate, PSMainViewControllerDelegate, PSPinkelStarServerDelegate> {
     UIWindow *window;
     SimpleRotationUIViewController *rootController;
 	UINavigationController *navController;

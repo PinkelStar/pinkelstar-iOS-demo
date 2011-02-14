@@ -1,7 +1,12 @@
 Changelog iOS PinkelStar framework and UI
 ======================================
 
-V0.9.3 Thursday November 25th 2010
+Monday February 14th 2011
+------------------------
+- Updated the framework fixing a reported bug. When a user shares something on a social network the framework now calls the psDidPublish delegate method correctly
+- Updated the version for the framework to v0.9.4
+
+Thursday November 25th 2010
 ------------------------
 - Updated the framework to use iOS 4.2
 - custom image sharing implemented. You can now set a custom image that replaces your app icon in individuel shares, both in the client UI and on the social networks
@@ -11,7 +16,7 @@ V0.9.3 Thursday November 25th 2010
 - Fixed a crash of the permission web view. Turns out an object was over-released when the user dismissed the view
 - Fixed a crash in share via e-mail. 
 
-V0.9.2 Monday October 11th 2010
+Monday October 11th 2010
 ------------------------
 - Added e-mail sharing
 - New class that takes care of e-mail sharing is PSMailViewController
