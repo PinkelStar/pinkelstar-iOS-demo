@@ -26,7 +26,7 @@
 	// We initialize the server at program launch. This enables the server to send us all relevant data
 	// to set up the PinkelStar sharing process
 	psServerSharedInstance = [PSPinkelStarServer sharedInstance];
-	[PSPinkelStarServer sharedInstance].delegate = self;
+	//[PSPinkelStarServer sharedInstance].delegate = self;
 	
 	// Display all types of buttons here.
 	// Normally we would obviously choose only one :-)
@@ -200,12 +200,13 @@
 	
 }
 
--(void) psDidPublish:(PSPinkelStarServer *) server
+-(void) psDidPublish:(PSMainViewController *)vController
 {
 	// called as soon as the client has received back a server response
 	// that tells us the publish request has finished
 	// We already told the user everyting is done, so we  don't do anything here
-	NSLog(@"PSDIDPUBLISH CALLEDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+	NSLog(@"all done now");
+
 }
 
 
