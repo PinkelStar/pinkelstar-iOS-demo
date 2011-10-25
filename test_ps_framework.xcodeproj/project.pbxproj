@@ -29,7 +29,6 @@
 		27A6137611B420A300FF8BBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6137511B420A300FF8BBA /* UIKit.framework */; };
 		27AD5B2412567CF70032F8FB /* PinkelStar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AD5B2312567CF70032F8FB /* PinkelStar_icon.png */; };
 		27AD5B2612567D010032F8FB /* PinkelStar_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AD5B2512567D010032F8FB /* PinkelStar_icon@2x.png */; };
-		27AD5B3012567D530032F8FB /* PSSettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AD5B2F12567D530032F8FB /* PSSettingsViewController_iPad.xib */; };
 		27AD5B3412567DAC0032F8FB /* PSSettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AD5B3312567DAC0032F8FB /* PSSettingsViewController_iPhone.xib */; };
 		27C1634C122D5BCC007C2E44 /* PSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C162D3122D5BCC007C2E44 /* PSMainViewController.m */; };
 		27C1634D122D5BCC007C2E44 /* PSShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C162D4122D5BCC007C2E44 /* PSShareButton.m */; };
@@ -640,6 +639,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "test_ps_framework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -784,7 +786,6 @@
 				271BD85A1256756D00DEC023 /* PSSettingsViewController_iPad.xib in Resources */,
 				27AD5B2412567CF70032F8FB /* PinkelStar_icon.png in Resources */,
 				27AD5B2612567D010032F8FB /* PinkelStar_icon@2x.png in Resources */,
-				27AD5B3012567D530032F8FB /* PSSettingsViewController_iPad.xib in Resources */,
 				27AD5B3412567DAC0032F8FB /* PSSettingsViewController_iPhone.xib in Resources */,
 				277BBF3D1263789100718667 /* email.png in Resources */,
 				277BBF3E1263789100718667 /* email@2x.png in Resources */,
@@ -868,7 +869,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_CFLAGS = "-DPS_DEBUG_MODE";
 				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -885,7 +885,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
